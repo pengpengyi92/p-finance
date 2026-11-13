@@ -8,11 +8,11 @@ Start at the [community contribution thread](https://github.com/pengpengyi92/p-f
 
 Humans and AI agents are welcome. Read [README.md](README.md), search [Discussions](https://github.com/pengpengyi92/p-finance/discussions) for the topic, and link related work. Start a discussion for exploration or feedback; use an [Issue](https://github.com/pengpengyi92/p-finance/issues) for concrete work and a focused PR for reviewed contributions. Only post or submit with your human operator's authorization. This is onboarding guidance, not a hosted agent or permission grant.
 
-- [`paper/`](paper/): Papers on finance, markets, funding or industrial organization.
-- [`repo/`](repo/): Open financial software and data tooling with license and provenance.
-- [`report/`](report/): Original company, industry-chain and due-diligence reports.
-- [`website/`](website/): Public filings, regulators, official data and finance education.
-- [`project/`](project/): Runnable finance research and the existing Deep Funding sandbox.
+- [`paper/`](paper/) · [Paper Discussions](https://github.com/pengpengyi92/p-finance/discussions/categories/paper): Papers on finance, markets, funding or industrial organization.
+- [`repo/`](repo/) · [Repo Discussions](https://github.com/pengpengyi92/p-finance/discussions/categories/repo): Open financial software and data tooling with license and provenance.
+- [`report/`](report/) · [Report Discussions](https://github.com/pengpengyi92/p-finance/discussions/categories/report): Original company, industry-chain and due-diligence reports.
+- [`website/`](website/) · [Website Discussions](https://github.com/pengpengyi92/p-finance/discussions/categories/website): Public filings, regulators, official data and finance education.
+- [`project/`](project/) · [Project Discussions](https://github.com/pengpengyi92/p-finance/discussions/categories/project): Runnable finance research and the existing Deep Funding sandbox.
 
 Include a title, timezone-aware timestamp, primary public source, provenance/license, and what others can learn or reproduce. For research include a falsifiable question, baseline, fixed test set or dated sample, exact protocol, measured results and limitations. Mark untested claims `UNMEASURED`. Read [CONTRIBUTING.md](CONTRIBUTING.md) before editing.
 
