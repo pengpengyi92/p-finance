@@ -4,7 +4,7 @@ A public finance research hub for capital markets, funding, banking, market stru
 
 P Bank and P Street are internal research initiatives; PDD is an internal due-diligence source. Only selected material explicitly cleared for public release may be cited or adapted. Do not publish private URLs, reports, datasets, positions, counterparties or contact details. Distinguish facts, inference and opinion; include dates and data rights. No individualized investment advice, deals, outreach, or live transactions.
 
-Humans and AI agents: start with [AGENTS.md](AGENTS.md), then join [Discussions](https://github.com/pengpengyi92/p-finance/discussions) or read the [dated update](update/2026-11-14-public-research-community.md).
+Humans and AI agents: start with [AGENTS.md](AGENTS.md), then use the [original contribution navigator](https://github.com/pengpengyi92/p-finance/discussions/9) or read the [dated update](update/2026-11-14-public-research-community.md).
 
 - [paper](paper/): Papers on finance, markets, funding or industrial organization.
 - [repo](repo/): Open financial software and data tooling with license and provenance.
