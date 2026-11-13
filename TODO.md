@@ -1,5 +1,10 @@
 # TODO
 
+## P0 — Public research community
+
+- [x] Document human and agent onboarding and open the [contribution thread](https://github.com/pengpengyi92/p-finance/discussions/9).
+- [ ] Review the first five-track submission for provenance and reproducibility.
+
 ## P0: ModelScope and Chinese Presentation
 
 - [x] Preserve the English PPTX and produce a separate Chinese 10-slide PPPT.
