@@ -9,7 +9,8 @@
 - [x] Add13 new offline contracts; all21 guide tests pass, preserving the previous8 assertions.
 - [x] Run existing application checks (132 unit/CLI + build) and12 browser regressions;
   preserve initial optional-binary/launcher failures and exact-lock recovery.
-- [ ] Publish scoped catalog/report and verify remote files; do not mirror upstream code/data.
+- [x] Publish scoped catalog/report at `8658352` and verify23 remote Git blobs plus
+  three byte-identical key files; no upstream code/data mirrored. Hosted CI tracked separately.
 - [ ] P1: Choose one synthetic credit/payment/valuation/cap-table experiment and measure it.
 - [ ] P1: Separately triage the lockfile dependency audit findings before any production upgrade;
   no forced dependency update, weakened audit, or production deployment in this catalog task.

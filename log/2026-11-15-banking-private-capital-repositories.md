@@ -60,6 +60,10 @@ projects. Never equate bank ownership with a desk's proprietary business code.
 
 ## Next
 
-Publish the scoped source catalog/report and verify remote content. Then choose one of the
-report's six synthetic studies with a fixed oracle and negative controls. Follow upstream
+Published content commit `8658352c45451993d1896ac960ad75be6715b8c3` to main and the
+task branch. At `2026-11-15T00:47:23+08:00`,23/23 remote Git blobs matched; the source
+snapshot, index and report also matched downloaded SHA-256 bytes. Hosted CI was still
+running, with guide/backend/npm gates already successful; see the dated delivery receipt.
+
+Choose one of the report's six synthetic studies with a fixed oracle and negative controls. Follow upstream
 contribution and rights requirements; do not turn a link collection into a production claim.

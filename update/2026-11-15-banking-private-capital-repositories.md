@@ -17,4 +17,18 @@
 - No upstream source/data copies, private materials, external posts, account subscriptions,
   real payments, brokerage connections, or production deployment.
 
-Publication and hosted-CI observation will be recorded only after actual remote read-back.
+## Publication read-back
+
+**Observed:** `2026-11-15T00:47:23+08:00`.
+
+- Content commit: `8658352c45451993d1896ac960ad75be6715b8c3`, pushed normally to
+  `main` and `codex/banking-capital-repos-20261115`; both remote refs matched.
+- All23 changed Git blobs match the published tree. Snapshot, catalog index and report
+  were additionally downloaded through GitHub's content API and SHA-256 matched byte-for-byte.
+- Snapshot SHA-256: `a8804042dc9f1717192812c474005334b1efb10d80f6edb2a832e227d5834256`.
+- [Content CI](https://github.com/pengpengyi92/p-finance/actions/runs/43617478729)
+  was IN_PROGRESS at observation: guide tests, backend pytest, knowledge checks and
+  npm checks had succeeded; browser installation/tests and database UI gates remained.
+  This is not a claim that the full hosted workflow passed.
+- This follow-up receipt changes delivery records only; it does not alter the captured
+  source observations, collector, application, dependency lock or financial assertions.
