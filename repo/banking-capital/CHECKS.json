@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "title": "Banking and private-capital catalog: local verification receipt",
+  "recorded_at": "2026-11-15T00:44:27+08:00",
+  "timezone": "Asia/Shanghai",
+  "baseline_commit": "73bd54f04b98f288de98b7ba5dc1e4b89dcf7a3c",
+  "source_snapshot": {
+    "path": "repo/banking-capital/snapshot.json",
+    "sha256": "a8804042dc9f1717192812c474005334b1efb10d80f6edb2a832e227d5834256",
+    "completed_at": "2026-11-15T00:36:38+08:00",
+    "resumed_observations_keep_original_timestamps": true
+  },
+  "counts": {
+    "bank_public_nonforks": 143,
+    "excluded_forks": 80,
+    "organizations": {"goldmansachs": 24, "jpmorganchase": 65, "morganstanley": 49, "deutschebank": 5},
+    "selected_unique": 45,
+    "reference_only": 2,
+    "selected_archived": 5,
+    "selected_license_classifier_needs_review": 10,
+    "category_counts_not_additive": {"institutions": 28, "corporate-banking": 24, "investment-banking": 29, "private-equity": 10, "venture-capital": 9}
+  },
+  "environment": {"os": "Windows", "python": "3.11.3", "node": "24.18.0", "application_version_unchanged": "0.3.0"},
+  "checks": [
+    {
+      "command": "python -m unittest discover -s tests/repo_guides -v",
+      "exit_code": 0,
+      "passed": 21,
+      "new": 13,
+      "retained": 8,
+      "completed_at": "2026-11-15T00:40:45+08:00",
+      "raw_transcript_sha256": "3636a33d5afd956233a689b99f2e95bc81484d117a1e70e95eafee0fb3e43018"
+    },
+    {
+      "command": "npm run check",
+      "exit_code": 0,
+      "unit_cli_passed": 132,
+      "test_files": 8,
+      "also_passed": ["schema", "examples", "Worker type generation", "TypeScript", "Vite build"],
+      "completed_at": "2026-11-15T00:41:11+08:00",
+      "raw_transcript_sha256": "074aedcdeeca762c4280aae156dc6bd4ddd70e52ad6f318f1696ab85c99887fd"
+    },
+    {
+      "command": "npm run test:e2e",
+      "environment": {"CI": "true", "WRANGLER_SEND_METRICS": "false"},
+      "exit_code": 0,
+      "passed": 12,
+      "duration_seconds": 20.0,
+      "scope": "Fresh local synthetic D1; no production database or deployment",
+      "completed_at": "2026-11-15T00:42:03+08:00",
+      "raw_transcript_sha256": "77f76d0ff404423beac62d5faa26b611c1299776951cbbaaa88ad97245963260"
+    }
+  ],
+  "failed_attempts": [
+    {"kind": "SOURCE_EMPTY", "target": "deutschebank/dbcore/commits/master", "http_status": 409, "resolution": "Verified empty size0; inventory-only, no invented HEAD or implementation claim"},
+    {"kind": "ENVIRONMENT", "command": "py -3.11", "detail": "Restricted launcher reported no installed Python before tests ran", "resolution": "Used installed Python3.11.3 for actual tests"},
+    {"kind": "ENVIRONMENT", "command": "npm run check", "detail": "Initial schema/examples passed; type generation stopped because optional Windows workerd binary was absent", "resolution": "Provisioned exact platform binary; npm ci --include=optional restored original locked dependency tree before final checks"}
+  ],
+  "code_sha256": {
+    "scripts/collect_banking_capital_repos.py": "b353171d12d8c5998fec59e89d207af88812b6888a5eb1b60856a370d1fd4f0f",
+    "tests/repo_guides/test_banking_capital.py": "4f2eb20b81f4bb2678abb0af936f67de8c5523924a4ce3f3f036fdf5274b94cc",
+    "tests/repo_guides/test_repo_guides.py": "97e5c4f350049426fef49654068413a194641880ce3c7815417d587a81ca0c74"
+  },
+  "dependency_lock": {
+    "path": "package-lock.json",
+    "sha256": "39119aa69949fbf7df140b4afca2d687b39f9192769f13754cbdac3b7f2851ba",
+    "baseline_and_current_git_blob": "dcf319245052fb2834333ede5d3fe0a27bce1c38",
+    "changed": false,
+    "reported_audit_findings": {"total": 10, "moderate": 1, "high": 7, "critical": 2},
+    "resolution": "NOT_REMEDIATED: separate security triage; no forced upgrades or production deployment"
+  },
+  "raw_artifacts": "Full local test transcripts and source review/cache remain git-ignored; hashes are provenance receipts, not remotely downloadable logs",
+  "not_run_or_unmeasured": ["Backend Python/SQLite integration rerun", "Third-party project execution", "Financial numerical equivalence", "Real data entitlements", "Learning or economic benefit", "Production security", "Investment returns"],
+  "remote_ci_at_local_receipt": "NOT_OBSERVED; local results do not imply hosted CI success"
+}

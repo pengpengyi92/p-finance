@@ -1,5 +1,19 @@
 # TODO
 
+## P0 - Banking / IB / PE / VC repository map (2026-11-15)
+
+- [x] Enumerate all public non-forks in four named bank organizations; retain exact scope.
+- [x] Pin45 selected projects,2 reference-only candidates; keep empty dbcore inventory-only.
+- [x] Separate bank ownership, foundation projects, standards, PE-firm work and learning examples.
+- [x] Verify archived/migrated payment projects, custom standard terms and market-data boundaries.
+- [x] Add13 new offline contracts; all21 guide tests pass, preserving the previous8 assertions.
+- [x] Run existing application checks (132 unit/CLI + build) and12 browser regressions;
+  preserve initial optional-binary/launcher failures and exact-lock recovery.
+- [ ] Publish scoped catalog/report and verify remote files; do not mirror upstream code/data.
+- [ ] P1: Choose one synthetic credit/payment/valuation/cap-table experiment and measure it.
+- [ ] P1: Separately triage the lockfile dependency audit findings before any production upgrade;
+  no forced dependency update, weakened audit, or production deployment in this catalog task.
+
 ## P0 - Corporate Finance / FICC repository guides (2026-11-14)
 
 - [x] Curate8 public repositories with official source pins, rights and learning routes.

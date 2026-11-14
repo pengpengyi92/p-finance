@@ -1,0 +1,3874 @@
+{
+  "schema_version": 1,
+  "title": "Banking, investment banking and private-capital repository map",
+  "observed_at": "2026-11-15T00:36:37+08:00",
+  "scope": "Complete paginated public non-fork inventories of four named organizations; selected cross-ecosystem guides, not all financial software on GitHub.",
+  "execution": "Third-party software and financial outcomes NOT_RUN / UNMEASURED",
+  "institutions": [
+    {
+      "organization": "goldmansachs",
+      "name": "Goldman Sachs",
+      "sources": [
+        "https://github.com/goldmansachs",
+        "https://gs.com/opensource"
+      ],
+      "profile_url": "https://github.com/goldmansachs",
+      "profile_blog": "https://gs.com/opensource",
+      "observed_at": "2026-11-15T00:36:37+08:00",
+      "profile_observed_at": "2026-11-15T00:29:20+08:00",
+      "page_observations": [
+        {
+          "page": 1,
+          "observed_at": "2026-11-15T00:29:22+08:00"
+        }
+      ],
+      "pages_read": 1,
+      "pagination_complete": true,
+      "excluded_forks": 49,
+      "repositories": [
+        {
+          "repository": "goldmansachs/.github",
+          "url": "https://github.com/goldmansachs/.github",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2022-10-21T21:31:11Z",
+          "size_kb": 7,
+          "license_signal": null
+        },
+        {
+          "repository": "goldmansachs/bigquery-grafana-plugin",
+          "url": "https://github.com/goldmansachs/bigquery-grafana-plugin",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "gs_2.0.2",
+          "pushed_at": "2025-06-04T09:20:53Z",
+          "size_kb": 271506,
+          "license_signal": "MIT"
+        },
+        {
+          "repository": "goldmansachs/crdtools",
+          "url": "https://github.com/goldmansachs/crdtools",
+          "description": "Custom Resource Definition Tools",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2025-05-06T10:19:39Z",
+          "size_kb": 115,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "goldmansachs/daml-examples",
+          "url": "https://github.com/goldmansachs/daml-examples",
+          "description": "DAML Examples",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2022-11-08T14:26:30Z",
+          "size_kb": 4,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "goldmansachs/docknight_lib",
+          "url": "https://github.com/goldmansachs/docknight_lib",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "master",
+          "pushed_at": "2023-03-20T19:22:32Z",
+          "size_kb": 9720,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "goldmansachs/EngineeringEssentials",
+          "url": "https://github.com/goldmansachs/EngineeringEssentials",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "master",
+          "pushed_at": "2023-03-20T19:25:49Z",
+          "size_kb": 678,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "goldmansachs/gs-collections",
+          "url": "https://github.com/goldmansachs/gs-collections",
+          "description": "GS Collections has been migrated to the Eclipse Foundation, re-branded as Eclipse Collections.  https://www.eclipse.org/collections/",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "master",
+          "pushed_at": "2023-03-20T19:23:56Z",
+          "size_kb": 12935,
+          "license_signal": null
+        },
+        {
+          "repository": "goldmansachs/gs-collections-kata",
+          "url": "https://github.com/goldmansachs/gs-collections-kata",
+          "description": "The GS Collections Kata has been migrated to the Eclipse Foundation, re-branded as the Eclipse Collections Kata.  https://github.com/eclipse/eclipse-collections-kata",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "master",
+          "pushed_at": "2018-08-22T11:20:23Z",
+          "size_kb": 72937,
+          "license_signal": null
+        },
+        {
+          "repository": "goldmansachs/gs-ocpmon",
+          "url": "https://github.com/goldmansachs/gs-ocpmon",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "master",
+          "pushed_at": "2023-07-10T09:54:50Z",
+          "size_kb": 212,
+          "license_signal": null
+        },
+        {
+          "repository": "goldmansachs/gs-quant",
+          "url": "https://github.com/goldmansachs/gs-quant",
+          "description": "Python toolkit for quantitative finance",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "master",
+          "pushed_at": "2026-11-06T17:56:02Z",
+          "size_kb": 27051,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "goldmansachs/gs-xsd2bean",
+          "url": "https://github.com/goldmansachs/gs-xsd2bean",
+          "description": "A dependency-free XML to Object Mapper",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "master",
+          "pushed_at": "2016-09-13T16:24:40Z",
+          "size_kb": 952,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "goldmansachs/jdmn",
+          "url": "https://github.com/goldmansachs/jdmn",
+          "description": "A Java implementation of DMN",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2026-11-13T16:50:11Z",
+          "size_kb": 60486,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "goldmansachs/jdmn-js-runtime",
+          "url": "https://github.com/goldmansachs/jdmn-js-runtime",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2025-04-15T10:28:53Z",
+          "size_kb": 178,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "goldmansachs/jdmn-python-runtime",
+          "url": "https://github.com/goldmansachs/jdmn-python-runtime",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2026-10-09T15:01:13Z",
+          "size_kb": 442,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "goldmansachs/jrpip",
+          "url": "https://github.com/goldmansachs/jrpip",
+          "description": "JrPip is a Java Remote Proxy Invocation Provider.",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "master",
+          "pushed_at": "2022-07-24T15:17:02Z",
+          "size_kb": 247,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "goldmansachs/kata2go",
+          "url": "https://github.com/goldmansachs/kata2go",
+          "description": "A proof of concept implementation of hosted Katas",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "master",
+          "pushed_at": "2017-03-22T19:52:59Z",
+          "size_kb": 0,
+          "license_signal": null
+        },
+        {
+          "repository": "goldmansachs/MRWord2Vec",
+          "url": "https://github.com/goldmansachs/MRWord2Vec",
+          "description": "A MapReduce / Hadoop implementation of Word2Vec",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "master",
+          "pushed_at": "2022-03-10T19:19:36Z",
+          "size_kb": 54,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "goldmansachs/obevo",
+          "url": "https://github.com/goldmansachs/obevo",
+          "description": "Obevo is a database deployment tool that handles enterprise scale schemas and complexity",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "master",
+          "pushed_at": "2023-03-20T19:27:46Z",
+          "size_kb": 5434,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "goldmansachs/obevo-kata",
+          "url": "https://github.com/goldmansachs/obevo-kata",
+          "description": "Code Kata to learn about the Obevo database deployment utility (https://github.com/goldmansachs/obevo)",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "master",
+          "pushed_at": "2023-03-20T19:24:34Z",
+          "size_kb": 5163,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "goldmansachs/openjdk-jdk8u",
+          "url": "https://github.com/goldmansachs/openjdk-jdk8u",
+          "description": "OpenJDK jdk8u mirror",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "master",
+          "pushed_at": "2017-03-27T10:24:13Z",
+          "size_kb": 127461,
+          "license_signal": "GPL-2.0"
+        },
+        {
+          "repository": "goldmansachs/pulse-telemapi-plugin",
+          "url": "https://github.com/goldmansachs/pulse-telemapi-plugin",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2025-03-13T10:00:02Z",
+          "size_kb": 57,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "goldmansachs/reladomo",
+          "url": "https://github.com/goldmansachs/reladomo",
+          "description": "Reladomo is an enterprise grade object-relational mapping framework for Java.",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "master",
+          "pushed_at": "2026-09-20T15:26:16Z",
+          "size_kb": 10901,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "goldmansachs/reladomo-kata",
+          "url": "https://github.com/goldmansachs/reladomo-kata",
+          "description": "Kata for Reladomo",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "master",
+          "pushed_at": "2023-10-10T05:37:20Z",
+          "size_kb": 4142,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "goldmansachs/tablasco",
+          "url": "https://github.com/goldmansachs/tablasco",
+          "description": "Tablasco is a JUnit rule for comparing tables and Spark module for comparing large data sets",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "master",
+          "pushed_at": "2025-10-07T11:50:32Z",
+          "size_kb": 1814,
+          "license_signal": "Apache-2.0"
+        }
+      ]
+    },
+    {
+      "organization": "jpmorganchase",
+      "name": "JPMorgan Chase",
+      "sources": [
+        "https://github.com/jpmorganchase",
+        "https://jpmorganchase.github.io/"
+      ],
+      "profile_url": "https://github.com/jpmorganchase",
+      "profile_blog": "https://www.jpmorganchase.com",
+      "observed_at": "2026-11-15T00:36:37+08:00",
+      "profile_observed_at": "2026-11-15T00:29:23+08:00",
+      "page_observations": [
+        {
+          "page": 1,
+          "observed_at": "2026-11-15T00:29:25+08:00"
+        }
+      ],
+      "pages_read": 1,
+      "pagination_complete": true,
+      "excluded_forks": 9,
+      "repositories": [
+        {
+          "repository": "jpmorganchase/.github",
+          "url": "https://github.com/jpmorganchase/.github",
+          "description": "Community Content for JPMC Repositories",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2024-07-25T01:35:12Z",
+          "size_kb": 224,
+          "license_signal": null
+        },
+        {
+          "repository": "jpmorganchase/abides-jpmc-public",
+          "url": "https://github.com/jpmorganchase/abides-jpmc-public",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2024-07-22T15:22:04Z",
+          "size_kb": 1915,
+          "license_signal": "NOASSERTION"
+        },
+        {
+          "repository": "jpmorganchase/active-label",
+          "url": "https://github.com/jpmorganchase/active-label",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2024-11-04T13:19:53Z",
+          "size_kb": 25,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/ai-prepline",
+          "url": "https://github.com/jpmorganchase/ai-prepline",
+          "description": "ai-prepline is a python library that allows data scientists and engineers to compose original and third-party methods into data pre-processing pipelines, with a particular focus on unstructured text data.",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2025-01-29T16:24:46Z",
+          "size_kb": 57,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/AIKYA",
+          "url": "https://github.com/jpmorganchase/AIKYA",
+          "description": "Federated Learning and its use to our business for a variety of use cases",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "develop",
+          "pushed_at": "2026-07-29T05:39:32Z",
+          "size_kb": 294068,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/anu",
+          "url": "https://github.com/jpmorganchase/anu",
+          "description": "Immersive Visualization Toolkit for BabylonJS",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2026-09-02T23:27:27Z",
+          "size_kb": 179662,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/api-miner",
+          "url": "https://github.com/jpmorganchase/api-miner",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2024-02-01T21:38:58Z",
+          "size_kb": 774,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/cf-shap",
+          "url": "https://github.com/jpmorganchase/cf-shap",
+          "description": "Counterfactual SHAP: a framework for counterfactual feature importance",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2023-07-06T22:18:23Z",
+          "size_kb": 843,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/cf-shap-facct22",
+          "url": "https://github.com/jpmorganchase/cf-shap-facct22",
+          "description": "Counterfactual Shapley Additive Explanation: Experiments",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2023-07-06T22:18:11Z",
+          "size_kb": 1400,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/CodeQuest",
+          "url": "https://github.com/jpmorganchase/CodeQuest",
+          "description": "CodeQUEST is a generalizable framework which leverages LLMs to iteratively evaluate and enhance code quality across multiple dimensions for a variety of programming languages.",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2026-02-11T14:46:30Z",
+          "size_kb": 34,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/cv4code",
+          "url": "https://github.com/jpmorganchase/cv4code",
+          "description": "CV4Code - Sourcecode Understanding via Visual Code Representations",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2024-07-25T10:27:45Z",
+          "size_kb": 77,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/CyberBench",
+          "url": "https://github.com/jpmorganchase/CyberBench",
+          "description": "CyberBench: A Multi-Task Cyber LLM Benchmark",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2025-04-29T16:34:23Z",
+          "size_kb": 69,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/dataquery-sdk",
+          "url": "https://github.com/jpmorganchase/dataquery-sdk",
+          "description": "DataQuery SDK is a high-performance Python SDK for the DATAQUERY Data API, providing seamless access to JPMorgan data with advanced features like querying, downloading, availability checking, rate limiting, retry logic, connection pool monitoring, and comprehensive logging.",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2026-11-05T21:03:44Z",
+          "size_kb": 2098,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/dcmppln",
+          "url": "https://github.com/jpmorganchase/dcmppln",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2024-09-10T21:28:16Z",
+          "size_kb": 13853,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/depcom",
+          "url": "https://github.com/jpmorganchase/depcom",
+          "description": "A blazing fast go / npm package that extracts imported dependencies from Javascript / Typescript / CSS source files.",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2024-06-20T14:52:12Z",
+          "size_kb": 254,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/dropout-rashomon-set-exploration",
+          "url": "https://github.com/jpmorganchase/dropout-rashomon-set-exploration",
+          "description": "JPMorganChase Global Technology Aplied Research dropout rashomon set exploration project",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2024-07-25T11:40:06Z",
+          "size_kb": 1177,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/embedder",
+          "url": "https://github.com/jpmorganchase/embedder",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2026-03-01T17:30:29Z",
+          "size_kb": 416,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/End-to-End_Protocol_for_High-Quality_QAOA_Parameters",
+          "url": "https://github.com/jpmorganchase/End-to-End_Protocol_for_High-Quality_QAOA_Parameters",
+          "description": "Code supporting the JPMC Global Technology Applied Research (GTAR) paper End-to-End Protocol for High-Quality QAOA Parameters",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2025-05-18T23:42:01Z",
+          "size_kb": 2549476,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/Figma-Plugins-and-Widgets",
+          "url": "https://github.com/jpmorganchase/Figma-Plugins-and-Widgets",
+          "description": "Figma plugins and widgets to enhance design workflows",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2026-04-10T03:45:20Z",
+          "size_kb": 2542,
+          "license_signal": null
+        },
+        {
+          "repository": "jpmorganchase/fl-eval-kit",
+          "url": "https://github.com/jpmorganchase/fl-eval-kit",
+          "description": "The FL-Eval-Kit repository hosts the implementation of novel metrics introduced in our research: the Absolute Variation Distance (AVD), and the D-Rank metric. ",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2024-04-24T12:41:05Z",
+          "size_kb": 179711,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/fusion",
+          "url": "https://github.com/jpmorganchase/fusion",
+          "description": "PyFusion is the Python SDK for the Fusion platform API.",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "master",
+          "pushed_at": "2026-06-26T10:47:06Z",
+          "size_kb": 8126,
+          "license_signal": "NOASSERTION"
+        },
+        {
+          "repository": "jpmorganchase/fusion-3.7",
+          "url": "https://github.com/jpmorganchase/fusion-3.7",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2026-02-17T17:14:57Z",
+          "size_kb": 380,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/fusion-java-sdk",
+          "url": "https://github.com/jpmorganchase/fusion-java-sdk",
+          "description": "A Java SDK for the Fusion platform API",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2026-02-17T16:39:07Z",
+          "size_kb": 595,
+          "license_signal": "NOASSERTION"
+        },
+        {
+          "repository": "jpmorganchase/fusion-notebooks",
+          "url": "https://github.com/jpmorganchase/fusion-notebooks",
+          "description": "Code and Jupyter notebooks that provide working examples of how to use the PyFusion SDK",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "master",
+          "pushed_at": "2022-05-30T13:09:42Z",
+          "size_kb": 3,
+          "license_signal": null
+        },
+        {
+          "repository": "jpmorganchase/global-technology-applied-research",
+          "url": "https://github.com/jpmorganchase/global-technology-applied-research",
+          "description": "Global Technology Applied Research publications",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2026-05-27T12:38:54Z",
+          "size_kb": 132431,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/hardness-of-mis-on-udg",
+          "url": "https://github.com/jpmorganchase/hardness-of-mis-on-udg",
+          "description": "Code for paper \"Hardness of the Maximum Independent Set Problem on Unit-Disk Graphs and Prospects for Quantum Speedups\"",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2024-07-15T17:43:46Z",
+          "size_kb": 7463,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/i2i-generator-unlearning",
+          "url": "https://github.com/jpmorganchase/i2i-generator-unlearning",
+          "description": "GTAR l2l generator unlearning project",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2024-05-06T12:24:00Z",
+          "size_kb": 6804,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/inference-server",
+          "url": "https://github.com/jpmorganchase/inference-server",
+          "description": "Deploy your AI/ML model to Amazon SageMaker for Real-Time Inference and Batch Transform using your own Docker container image.",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2025-04-07T08:25:53Z",
+          "size_kb": 99,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/Intimate-Partner-Financial-Abuse-in-Public-Consumer-Complaints",
+          "url": "https://github.com/jpmorganchase/Intimate-Partner-Financial-Abuse-in-Public-Consumer-Complaints",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2023-11-21T21:41:39Z",
+          "size_kb": 264,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/java-lint-assert",
+          "url": "https://github.com/jpmorganchase/java-lint-assert",
+          "description": "Java Lint Library",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "master",
+          "pushed_at": "2023-10-17T20:55:31Z",
+          "size_kb": 506,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/jif-dashboard",
+          "url": "https://github.com/jpmorganchase/jif-dashboard",
+          "description": "A dashboard framework to quickly build widget-based dashboards",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "master",
+          "pushed_at": "2023-09-06T05:53:35Z",
+          "size_kb": 4145,
+          "license_signal": "NOASSERTION"
+        },
+        {
+          "repository": "jpmorganchase/jpmc-qcware-deephedging",
+          "url": "https://github.com/jpmorganchase/jpmc-qcware-deephedging",
+          "description": "JPMC & QCWare Quantum Deep Hedging",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2024-02-06T01:21:14Z",
+          "size_kb": 49343,
+          "license_signal": "MIT"
+        },
+        {
+          "repository": "jpmorganchase/jpmorganchase.github.io",
+          "url": "https://github.com/jpmorganchase/jpmorganchase.github.io",
+          "description": "JPMC IO Site",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2024-04-22T21:59:07Z",
+          "size_kb": 22548,
+          "license_signal": null
+        },
+        {
+          "repository": "jpmorganchase/jupyter-fs",
+          "url": "https://github.com/jpmorganchase/jupyter-fs",
+          "description": "A filesystem-like contents manager for multiple backends in Jupyter",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2026-10-31T20:18:39Z",
+          "size_kb": 7065,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/kallisti",
+          "url": "https://github.com/jpmorganchase/kallisti",
+          "description": "Chaos Engineering Framework across Private / Public / Hybrid Cloud Environments",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2024-06-26T19:09:09Z",
+          "size_kb": 620,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/kallisti-core",
+          "url": "https://github.com/jpmorganchase/kallisti-core",
+          "description": "Core functionality of Kallisti Chaos Engineering Framework",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2024-02-01T11:17:11Z",
+          "size_kb": 116,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/Kinexys-ssi-sdk",
+          "url": "https://github.com/jpmorganchase/Kinexys-ssi-sdk",
+          "description": "Kinexys Self Sovereign Identity SDK",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2024-11-22T15:37:22Z",
+          "size_kb": 1693,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/Kinexys-ssi-sdk-examples",
+          "url": "https://github.com/jpmorganchase/Kinexys-ssi-sdk-examples",
+          "description": "Onyx Self Sovereign Identity SDK Examples",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2024-11-13T17:09:59Z",
+          "size_kb": 297,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/llm-email-spam-detection",
+          "url": "https://github.com/jpmorganchase/llm-email-spam-detection",
+          "description": "LLM for Email Spam Detection",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2023-06-26T12:27:26Z",
+          "size_kb": 123,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/MaSS",
+          "url": "https://github.com/jpmorganchase/MaSS",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2024-07-25T10:20:11Z",
+          "size_kb": 217,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/modular",
+          "url": "https://github.com/jpmorganchase/modular",
+          "description": "A modular front end development framework ",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2024-05-05T18:54:55Z",
+          "size_kb": 16539,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/mosaic",
+          "url": "https://github.com/jpmorganchase/mosaic",
+          "description": "https://mosaic-mosaic-dev-team.vercel.app",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2026-11-14T16:08:22Z",
+          "size_kb": 24440,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/nbcelltests",
+          "url": "https://github.com/jpmorganchase/nbcelltests",
+          "description": "Cell-by-cell testing for production Jupyter notebooks in JupyterLab",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2026-11-01T17:55:34Z",
+          "size_kb": 8371,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/onyx-ssi-sdk",
+          "url": "https://github.com/jpmorganchase/onyx-ssi-sdk",
+          "description": "onyx-ssi-sdk has moved to Kinexys-ssi-sdk",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2024-11-06T08:55:02Z",
+          "size_kb": 0,
+          "license_signal": null
+        },
+        {
+          "repository": "jpmorganchase/onyx-ssi-sdk-examples",
+          "url": "https://github.com/jpmorganchase/onyx-ssi-sdk-examples",
+          "description": "onyx-ssi-sdk-examples has moved to Kinexys-ssi-sdk-examples",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2024-11-25T16:20:32Z",
+          "size_kb": 2,
+          "license_signal": null
+        },
+        {
+          "repository": "jpmorganchase/opencell",
+          "url": "https://github.com/jpmorganchase/opencell",
+          "description": "Spreadsheets 3.0",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "master",
+          "pushed_at": "2020-06-20T14:54:52Z",
+          "size_kb": 2,
+          "license_signal": null
+        },
+        {
+          "repository": "jpmorganchase/ovor",
+          "url": "https://github.com/jpmorganchase/ovor",
+          "description": "GTAR OVOR Project",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2024-07-25T11:52:37Z",
+          "size_kb": 231,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/PADL",
+          "url": "https://github.com/jpmorganchase/PADL",
+          "description": "PADL - Private, Auditable and Distributed ledger, is a tool based on zero-knowledge proofs for exploring and building private and auditable ledger in blockchain applications of financial institutes. ",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2026-11-06T20:44:34Z",
+          "size_kb": 15489,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/pandemic-ui-chase",
+          "url": "https://github.com/jpmorganchase/pandemic-ui-chase",
+          "description": "JPMC Institute Project Pandemic UI Chase",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2024-03-01T12:16:55Z",
+          "size_kb": 210,
+          "license_signal": "MIT"
+        },
+        {
+          "repository": "jpmorganchase/Phantom",
+          "url": "https://github.com/jpmorganchase/Phantom",
+          "description": "A Multi-agent reinforcement-learning simulator framework.",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2026-07-28T02:57:28Z",
+          "size_kb": 3330,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/py-adapter",
+          "url": "https://github.com/jpmorganchase/py-adapter",
+          "description": "Round-trip serialization/deserialization of any Python object to/from any serialization format including Avro and JSON.",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2024-07-29T16:03:16Z",
+          "size_kb": 133,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/py-avro-schema",
+          "url": "https://github.com/jpmorganchase/py-avro-schema",
+          "description": "Generate Apache Avro schemas for Python types including standard library data-classes and Pydantic data models.",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2024-09-03T11:47:37Z",
+          "size_kb": 240,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/python-training",
+          "url": "https://github.com/jpmorganchase/python-training",
+          "description": "Python training for business analysts and traders",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2026-11-13T21:42:36Z",
+          "size_kb": 1656,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/QOKit",
+          "url": "https://github.com/jpmorganchase/QOKit",
+          "description": "QOKit",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2026-06-17T14:57:36Z",
+          "size_kb": 83877,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/qReduMIS",
+          "url": "https://github.com/jpmorganchase/qReduMIS",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2026-10-30T16:43:22Z",
+          "size_kb": 12325,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/react-component-usage",
+          "url": "https://github.com/jpmorganchase/react-component-usage",
+          "description": "A tool for UI or Design System libraries to understand usage patterns of React components within it's organisation",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2024-05-20T09:50:02Z",
+          "size_kb": 22,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/salesforce-b2c",
+          "url": "https://github.com/jpmorganchase/salesforce-b2c",
+          "description": "host adapters for salesforce ",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2026-08-25T14:28:43Z",
+          "size_kb": 40733,
+          "license_signal": null
+        },
+        {
+          "repository": "jpmorganchase/salt-ds",
+          "url": "https://github.com/jpmorganchase/salt-ds",
+          "description": "React UI components built with a focus on accessibility, customization and ease-of-use",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2026-11-14T12:15:00Z",
+          "size_kb": 245845,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/sandboni-core",
+          "url": "https://github.com/jpmorganchase/sandboni-core",
+          "description": "Sandboni - Java test optimization library which reduces test execution time without compromising quality",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "dev",
+          "pushed_at": "2022-12-14T23:40:15Z",
+          "size_kb": 928,
+          "license_signal": "GPL-3.0"
+        },
+        {
+          "repository": "jpmorganchase/sap",
+          "url": "https://github.com/jpmorganchase/sap",
+          "description": "host adapters for sap",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2024-07-16T15:07:53Z",
+          "size_kb": 313,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/SFinX",
+          "url": "https://github.com/jpmorganchase/SFinX",
+          "description": "Standardized FINancial eXtractions",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2022-04-28T00:12:05Z",
+          "size_kb": 950,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/swblocks-baselib",
+          "url": "https://github.com/jpmorganchase/swblocks-baselib",
+          "description": "A modern C++11 library that provides a number unique capabilities, idiomatic blocks and wrappers which are generic, flexible, compose-able and can be used in many generic contexts for development of both applications and system level components",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "master",
+          "pushed_at": "2021-09-08T02:40:06Z",
+          "size_kb": 1935,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/swblocks-decisiontree",
+          "url": "https://github.com/jpmorganchase/swblocks-decisiontree",
+          "description": "swblocks-decisiontree library is a high performance, highly flexible service which evaluates inputs to a set of rules to identify one and only one output rule which in term results in a set of outputs",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "master",
+          "pushed_at": "2024-01-23T04:04:27Z",
+          "size_kb": 321,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/swblocks-jbl",
+          "url": "https://github.com/jpmorganchase/swblocks-jbl",
+          "description": "swblocks-jbl library is a set of core Java utilities based on Java 8 which provides as set of core error handling tools and additional utilites used across the swblocks projects. It has been written to avoid the problem of including a number of large external dependencies which are only required for one or two classes. ",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "master",
+          "pushed_at": "2020-06-15T09:14:40Z",
+          "size_kb": 144,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "jpmorganchase/topical",
+          "url": "https://github.com/jpmorganchase/topical",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2024-04-22T20:02:27Z",
+          "size_kb": 49695,
+          "license_signal": "Apache-2.0"
+        }
+      ]
+    },
+    {
+      "organization": "morganstanley",
+      "name": "Morgan Stanley",
+      "sources": [
+        "https://github.com/morganstanley",
+        "https://morganstanley.github.io/"
+      ],
+      "profile_url": "https://github.com/morganstanley",
+      "profile_blog": "https://morganstanley.github.io/",
+      "observed_at": "2026-11-15T00:36:37+08:00",
+      "profile_observed_at": "2026-11-15T00:29:26+08:00",
+      "page_observations": [
+        {
+          "page": 1,
+          "observed_at": "2026-11-15T00:29:28+08:00"
+        }
+      ],
+      "pages_read": 1,
+      "pagination_complete": true,
+      "excluded_forks": 0,
+      "repositories": [
+        {
+          "repository": "morganstanley/.github",
+          "url": "https://github.com/morganstanley/.github",
+          "description": "Default organization configuration and files",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2026-11-07T23:14:18Z",
+          "size_kb": 204445,
+          "license_signal": null
+        },
+        {
+          "repository": "morganstanley/api",
+          "url": "https://github.com/morganstanley/api",
+          "description": "Code samples and starter projects for accessing the Morgan Stanley API Program",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2026-11-10T13:40:24Z",
+          "size_kb": 1209,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/battleships",
+          "url": "https://github.com/morganstanley/battleships",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2022-08-24T13:17:38Z",
+          "size_kb": 25,
+          "license_signal": "AGPL-3.0"
+        },
+        {
+          "repository": "morganstanley/battleships-player-js",
+          "url": "https://github.com/morganstanley/battleships-player-js",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2022-08-24T13:18:42Z",
+          "size_kb": 20,
+          "license_signal": "AGPL-3.0"
+        },
+        {
+          "repository": "morganstanley/battleships-player-python",
+          "url": "https://github.com/morganstanley/battleships-player-python",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2021-03-12T17:41:42Z",
+          "size_kb": 17,
+          "license_signal": "AGPL-3.0"
+        },
+        {
+          "repository": "morganstanley/binlog",
+          "url": "https://github.com/morganstanley/binlog",
+          "description": "A high performance C++ log library, producing structured binary logs",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2026-07-01T14:18:32Z",
+          "size_kb": 1122,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/ComposeUI",
+          "url": "https://github.com/morganstanley/ComposeUI",
+          "description": "A .NET Core based, WebView2 using UI Container for hybrid web-desktop applications",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2026-11-14T03:44:43Z",
+          "size_kb": 29793,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/Crossroads",
+          "url": "https://github.com/morganstanley/Crossroads",
+          "description": ".NET Core commandline tool packager for developers",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2026-11-03T21:43:12Z",
+          "size_kb": 7351,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/desktopJS",
+          "url": "https://github.com/morganstanley/desktopJS",
+          "description": "desktopJS provides a common API across multiple HTML5 containers. By programming to a common API, applications can target multiple HTML5 containers without change.",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2026-11-03T21:44:40Z",
+          "size_kb": 5002,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/dotnet-please",
+          "url": "https://github.com/morganstanley/dotnet-please",
+          "description": "CLI tool aims to streamline some repetitive tasks around Visual Studio projects and solutions",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2026-11-07T13:51:47Z",
+          "size_kb": 539,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/eslint-plugin-externalincludes",
+          "url": "https://github.com/morganstanley/eslint-plugin-externalincludes",
+          "description": "Suite of @html-eslint ESLint rules for working with external references such as script src and link hrefs",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2026-11-13T17:03:03Z",
+          "size_kb": 1157,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/fdc3-web",
+          "url": "https://github.com/morganstanley/fdc3-web",
+          "description": "NPM Library providing FDC3 capabilities",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2026-11-13T13:36:48Z",
+          "size_kb": 2812,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/followapp-core",
+          "url": "https://github.com/morganstanley/followapp-core",
+          "description": "Analytics backed, cloud-based technology solution to remind and follow up with underprivileged mothers living in slums for their children's critical immunization",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2023-04-04T15:48:05Z",
+          "size_kb": 97,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/followapp-utils",
+          "url": "https://github.com/morganstanley/followapp-utils",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2025-10-16T13:52:03Z",
+          "size_kb": 297,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/gradle-plugin-application",
+          "url": "https://github.com/morganstanley/gradle-plugin-application",
+          "description": "Morgan Stanley's Application plugin for Gradle allows you to package your Java-based applications for distribution, much like Gradle's built-in Application plugin does, but in a more standard and more flexible way.",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2026-01-02T14:40:54Z",
+          "size_kb": 594,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/hobbes",
+          "url": "https://github.com/morganstanley/hobbes",
+          "description": "A language and an embedded JIT compiler",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2026-11-14T00:37:59Z",
+          "size_kb": 6016,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/jenkins-private-node",
+          "url": "https://github.com/morganstanley/jenkins-private-node",
+          "description": "Jenkins plugin to support private CI nodes using job name patterns",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "master",
+          "pushed_at": "2022-07-18T18:17:39Z",
+          "size_kb": 11,
+          "license_signal": "NOASSERTION"
+        },
+        {
+          "repository": "morganstanley/journal",
+          "url": "https://github.com/morganstanley/journal",
+          "description": "Journal is a distributed state store intended to use with Zookeeper and NFS. Journal can be used with any asynchronous API Server to keep track of long running requests or automation tools.",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "master",
+          "pushed_at": "2022-07-18T18:22:01Z",
+          "size_kb": 35,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/laf",
+          "url": "https://github.com/morganstanley/laf",
+          "description": "Little Admin Framework ",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "master",
+          "pushed_at": "2022-07-18T18:24:08Z",
+          "size_kb": 63,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/makerspace",
+          "url": "https://github.com/morganstanley/makerspace",
+          "description": "Curriculum of the Morgan Stanley Tech Ed Makerspace Program",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2026-11-12T17:14:40Z",
+          "size_kb": 112264,
+          "license_signal": "MIT"
+        },
+        {
+          "repository": "morganstanley/message-broker",
+          "url": "https://github.com/morganstanley/message-broker",
+          "description": "The MessageBroker is a typescript library for providing asynchronous communication throughout your app",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2026-11-12T17:12:21Z",
+          "size_kb": 4968,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/modern-cpp-kafka",
+          "url": "https://github.com/morganstanley/modern-cpp-kafka",
+          "description": "A C++ API for Kafka clients (i.e. KafkaProducer, KafkaConsumer, AdminClient)",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2026-01-01T19:43:49Z",
+          "size_kb": 5862,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/morganstanley.github.io",
+          "url": "https://github.com/morganstanley/morganstanley.github.io",
+          "description": "This is the source code to the Morgan Stanley Open Source site featuring projects and program information. This site is published at morganstanley.github.io and managed by the Morgan Stanley Open Source Programs Office (OSPO).",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2026-11-11T13:42:45Z",
+          "size_kb": 8880,
+          "license_signal": null
+        },
+        {
+          "repository": "morganstanley/MSML",
+          "url": "https://github.com/morganstanley/MSML",
+          "description": "Repo for Morgan Stanley Machine Learning Research group's publications",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2026-10-15T19:37:42Z",
+          "size_kb": 280674,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/needle",
+          "url": "https://github.com/morganstanley/needle",
+          "description": "A lightweight flexible Dependency Injection library for use with TypeScript projects. ",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2026-11-12T17:12:08Z",
+          "size_kb": 1833,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/optimus-cirrus",
+          "url": "https://github.com/morganstanley/optimus-cirrus",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2025-12-24T17:09:27Z",
+          "size_kb": 10948,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/Plug-in-AppDynamics-Data-Source",
+          "url": "https://github.com/morganstanley/Plug-in-AppDynamics-Data-Source",
+          "description": "AppDynamics Grafana Data Source Plugin",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2026-06-10T05:42:07Z",
+          "size_kb": 4929,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/proton",
+          "url": "https://github.com/morganstanley/proton",
+          "description": "Hackathon game server",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "master",
+          "pushed_at": "2022-07-18T18:20:51Z",
+          "size_kb": 147,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/pyfixmsg",
+          "url": "https://github.com/morganstanley/pyfixmsg",
+          "description": "pyfixmsg is a library for parsing, manipulating and serialising FIX messages, primarily geared towards testing.",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "master",
+          "pushed_at": "2023-09-05T13:14:18Z",
+          "size_kb": 64,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/releaseherald",
+          "url": "https://github.com/morganstanley/releaseherald",
+          "description": "releaseherald is a utility that can generate release notes. The only help it needs from developers is to collect meaningful news fragments in a directory, and apply consistent tags.",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2026-11-13T03:22:57Z",
+          "size_kb": 182,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/resource-model",
+          "url": "https://github.com/morganstanley/resource-model",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2022-09-26T12:09:08Z",
+          "size_kb": 33,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/Saturn",
+          "url": "https://github.com/morganstanley/Saturn",
+          "description": "Quality Assurance Automation Toolkit",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2022-07-27T14:53:35Z",
+          "size_kb": 5380,
+          "license_signal": "NOASSERTION"
+        },
+        {
+          "repository": "morganstanley/SilverKing",
+          "url": "https://github.com/morganstanley/SilverKing",
+          "description": "Scalable, high-throughput storage and coordination",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "master",
+          "pushed_at": "2022-07-18T18:26:14Z",
+          "size_kb": 132318,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/testplan",
+          "url": "https://github.com/morganstanley/testplan",
+          "description": "Testplan, a multi-testing framework, because unit tests can only go so far..",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2026-11-13T06:37:32Z",
+          "size_kb": 10193,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/treadmill",
+          "url": "https://github.com/morganstanley/treadmill",
+          "description": "lightweight, container-based compute fabric",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "master",
+          "pushed_at": "2022-09-26T12:16:19Z",
+          "size_kb": 4512,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/treadmill-aws",
+          "url": "https://github.com/morganstanley/treadmill-aws",
+          "description": "Treadmill AWS specific module",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2022-09-26T12:10:49Z",
+          "size_kb": 3950,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/treadmill-bind",
+          "url": "https://github.com/morganstanley/treadmill-bind",
+          "description": "supporting project for treadmill",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2022-09-26T12:05:41Z",
+          "size_kb": 21,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/treadmill-deploy",
+          "url": "https://github.com/morganstanley/treadmill-deploy",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2022-09-26T12:08:20Z",
+          "size_kb": 88,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/treadmill-pid1",
+          "url": "https://github.com/morganstanley/treadmill-pid1",
+          "description": "supporting project for treadmill",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2022-09-26T12:09:56Z",
+          "size_kb": 23,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/treadmill-runtime",
+          "url": "https://github.com/morganstanley/treadmill-runtime",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "master",
+          "pushed_at": "2024-04-25T12:15:47Z",
+          "size_kb": 121,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/treadmill-spawn",
+          "url": "https://github.com/morganstanley/treadmill-spawn",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2022-09-26T12:04:24Z",
+          "size_kb": 23,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/treadmill-tktfwd",
+          "url": "https://github.com/morganstanley/treadmill-tktfwd",
+          "description": "Supporting project for treadmill",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2022-09-26T12:06:33Z",
+          "size_kb": 125,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/ts-mocking-bird",
+          "url": "https://github.com/morganstanley/ts-mocking-bird",
+          "description": "A fully type safe mocking, call verification and import replacement library for jasmine and jest",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2026-11-04T08:09:52Z",
+          "size_kb": 9567,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/url-detector",
+          "url": "https://github.com/morganstanley/url-detector",
+          "description": "A command-line tool that scans source code and text files for URLs, detecting all discovered URLs",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2026-11-08T13:21:53Z",
+          "size_kb": 779,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/venn-cli",
+          "url": "https://github.com/morganstanley/venn-cli",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "master",
+          "pushed_at": "2022-07-18T18:19:25Z",
+          "size_kb": 41,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/venn-core",
+          "url": "https://github.com/morganstanley/venn-core",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "master",
+          "pushed_at": "2022-07-18T18:18:50Z",
+          "size_kb": 631,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/winss",
+          "url": "https://github.com/morganstanley/winss",
+          "description": "A supervision suite for Windows",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2022-09-26T12:03:34Z",
+          "size_kb": 394,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/Xpedite",
+          "url": "https://github.com/morganstanley/Xpedite",
+          "description": "A non-sampling profiler purpose built to measure and optimize performance of C++ low latency/real time systems",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2026-02-17T18:16:20Z",
+          "size_kb": 525209,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "morganstanley/zookeeper-authorizers",
+          "url": "https://github.com/morganstanley/zookeeper-authorizers",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "main",
+          "pushed_at": "2022-09-26T12:07:11Z",
+          "size_kb": 130,
+          "license_signal": "Apache-2.0"
+        }
+      ]
+    },
+    {
+      "organization": "deutschebank",
+      "name": "Deutsche Bank",
+      "sources": [
+        "https://github.com/deutschebank",
+        "https://www.db.com/news/detail/20171004-deutsche-bank-macht-programmcode-ihrer-autobahn-oeffentlich?language_id=3"
+      ],
+      "profile_url": "https://github.com/deutschebank",
+      "profile_blog": null,
+      "observed_at": "2026-11-15T00:36:37+08:00",
+      "profile_observed_at": "2026-11-15T00:29:29+08:00",
+      "page_observations": [
+        {
+          "page": 1,
+          "observed_at": "2026-11-15T00:29:31+08:00"
+        }
+      ],
+      "pages_read": 1,
+      "pagination_complete": true,
+      "excluded_forks": 22,
+      "repositories": [
+        {
+          "repository": "deutschebank/backstage-plugins",
+          "url": "https://github.com/deutschebank/backstage-plugins",
+          "description": "open platform for building developer portals plugin to provide capability to view reusable assets ",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "master",
+          "pushed_at": "2024-02-15T13:24:54Z",
+          "size_kb": 235,
+          "license_signal": "Apache-2.0"
+        },
+        {
+          "repository": "deutschebank/coding-exercises",
+          "url": "https://github.com/deutschebank/coding-exercises",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "pushed_at": "2025-06-25T08:00:20Z",
+          "size_kb": 585,
+          "license_signal": null
+        },
+        {
+          "repository": "deutschebank/dbcore",
+          "url": "https://github.com/deutschebank/dbcore",
+          "description": "dbCORE library",
+          "private": false,
+          "fork": false,
+          "archived": true,
+          "default_branch": "master",
+          "pushed_at": "2018-12-11T16:25:15Z",
+          "size_kb": 0,
+          "license_signal": null
+        },
+        {
+          "repository": "deutschebank/dbMango",
+          "url": "https://github.com/deutschebank/dbMango",
+          "description": "The main objective of making dbMango open source is to foster collaboration, innovation, and transparency while leveraging the collective expertise of the global developer community.",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "master",
+          "pushed_at": "2026-09-16T14:57:25Z",
+          "size_kb": 2298,
+          "license_signal": "NOASSERTION"
+        },
+        {
+          "repository": "deutschebank/deutsche-bank-api-program",
+          "url": "https://github.com/deutschebank/deutsche-bank-api-program",
+          "description": "Open banking nowadays is not just a fashionable term, but has found its way into the everyday life of many financial service providers. With the API Program, Deutsche Bank makes a large amount of customer data accessible to third parties via public APIs. The technical cornerstone of this is the Developer Portal. With this repo, we would like to make it a little easier for interested developers to access our APIs, documentation and the sandbox",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "default_branch": "master",
+          "pushed_at": "2026-11-03T09:03:45Z",
+          "size_kb": 20,
+          "license_signal": "NOASSERTION"
+        }
+      ]
+    }
+  ],
+  "repositories": [
+    {
+      "repository": "goldmansachs/gs-quant",
+      "relationship": "bank-owned",
+      "institution": "Goldman Sachs",
+      "categories": [
+        "institutions",
+        "investment-banking"
+      ],
+      "use": "衍生品、风险、市场数据与定价 SDK；先读已有 GS Quant 导读。",
+      "boundary": "不是 M&A/LBO 平台；数据、远程定价和账户权益不随 Apache 代码授权。",
+      "url": "https://github.com/goldmansachs/gs-quant",
+      "description": "Python toolkit for quantitative finance",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "master",
+      "pushed_at": "2026-11-06T17:56:02Z",
+      "size_kb": 27051,
+      "license_signal": "Apache-2.0",
+      "requested_repository": "goldmansachs/gs-quant",
+      "observed_at": "2026-11-15T00:29:32+08:00",
+      "head": "8725ddf2ce4b925a7ce68ba90eca353455ac34b5",
+      "head_date": "2026-11-06T17:54:20Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "5d54edc151ee1459c4bfc00b0dc601ac247378d0",
+          "url": "https://github.com/goldmansachs/gs-quant/blob/8725ddf2ce4b925a7ce68ba90eca353455ac34b5/README.md",
+          "observed_at": "2026-11-15T00:29:34+08:00",
+          "sha256": "5b2ea86aaf578251ee497910fa895da04d9880c5767556677ef6abd6f71136bc"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE",
+          "blob_sha": "7a4a3ea2424c09fbe48d455aed1eaa94d9124835",
+          "url": "https://github.com/goldmansachs/gs-quant/blob/8725ddf2ce4b925a7ce68ba90eca353455ac34b5/LICENSE",
+          "observed_at": "2026-11-15T00:29:35+08:00",
+          "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "goldmansachs/reladomo",
+      "relationship": "bank-owned",
+      "institution": "Goldman Sachs",
+      "categories": [
+        "institutions",
+        "corporate-banking"
+      ],
+      "use": "Java 对象关系映射、事务和双时态数据建模参考。",
+      "boundary": "通用工程基础设施，不是银行账务系统或客户数据。",
+      "url": "https://github.com/goldmansachs/reladomo",
+      "description": "Reladomo is an enterprise grade object-relational mapping framework for Java.",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "master",
+      "pushed_at": "2026-09-20T15:26:16Z",
+      "size_kb": 10901,
+      "license_signal": "Apache-2.0",
+      "requested_repository": "goldmansachs/reladomo",
+      "observed_at": "2026-11-15T00:29:36+08:00",
+      "head": "79ca94d6ec0155b103b2ddaccf25d9f02095891d",
+      "head_date": "2026-09-20T15:26:16Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "3528afde46f1c294d959c5307f0184e2c9caac25",
+          "url": "https://github.com/goldmansachs/reladomo/blob/79ca94d6ec0155b103b2ddaccf25d9f02095891d/README.md",
+          "observed_at": "2026-11-15T00:29:38+08:00",
+          "sha256": "628dbf64fb93bd07d7edbe2e8fd4f3c596c0c870c52156daf12c2d7f29f588de"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE.txt",
+          "blob_sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+          "url": "https://github.com/goldmansachs/reladomo/blob/79ca94d6ec0155b103b2ddaccf25d9f02095891d/LICENSE.txt",
+          "observed_at": "2026-11-15T00:29:39+08:00",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "goldmansachs/obevo",
+      "relationship": "bank-owned",
+      "institution": "Goldman Sachs",
+      "categories": [
+        "institutions",
+        "corporate-banking"
+      ],
+      "use": "大型数据库 schema 变更、可审计部署和环境管理。",
+      "boundary": "工具不包含银行真实 schema、风控政策或生产访问权限。",
+      "url": "https://github.com/goldmansachs/obevo",
+      "description": "Obevo is a database deployment tool that handles enterprise scale schemas and complexity",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "master",
+      "pushed_at": "2023-03-20T19:27:46Z",
+      "size_kb": 5434,
+      "license_signal": "Apache-2.0",
+      "requested_repository": "goldmansachs/obevo",
+      "observed_at": "2026-11-15T00:29:40+08:00",
+      "head": "133ce757ae80de9e7b7efa64328906c8471e4901",
+      "head_date": "2021-02-10T08:05:46Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "5604b43719d5988c6fcfaaefd55ab033492f0b39",
+          "url": "https://github.com/goldmansachs/obevo/blob/133ce757ae80de9e7b7efa64328906c8471e4901/README.md",
+          "observed_at": "2026-11-15T00:29:42+08:00",
+          "sha256": "c6cb4127f9abf5ea3ff18e398292f78733a80431d950b37e4bc22ed69de59471"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE.txt",
+          "blob_sha": "c490d15d539b38ae3848044687b11a30a5acaf35",
+          "url": "https://github.com/goldmansachs/obevo/blob/133ce757ae80de9e7b7efa64328906c8471e4901/LICENSE.txt",
+          "observed_at": "2026-11-15T00:29:43+08:00",
+          "sha256": "e09a415b404cb53ae4c6a6a5a04851ab149f9d92f7ecc1f449acf4870ef1bfd2"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "goldmansachs/jdmn",
+      "relationship": "bank-owned",
+      "institution": "Goldman Sachs",
+      "categories": [
+        "institutions",
+        "corporate-banking"
+      ],
+      "use": "DMN 决策表和规则执行，可研究审批规则的显式建模。",
+      "boundary": "信贷准入规则只是拟议用途；不代表 GS 的授信模型。",
+      "url": "https://github.com/goldmansachs/jdmn",
+      "description": "A Java implementation of DMN",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "pushed_at": "2026-11-13T16:50:11Z",
+      "size_kb": 60486,
+      "license_signal": "Apache-2.0",
+      "requested_repository": "goldmansachs/jdmn",
+      "observed_at": "2026-11-15T00:29:44+08:00",
+      "head": "a68b9a895be74e062957530864e352f4a109736d",
+      "head_date": "2026-11-13T16:38:26Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "59afdc6756028728e10597dd158e897799a74233",
+          "url": "https://github.com/goldmansachs/jdmn/blob/a68b9a895be74e062957530864e352f4a109736d/README.md",
+          "observed_at": "2026-11-15T00:29:46+08:00",
+          "sha256": "7f199b16f37e584ba00abd586137393aa40abe6d5db17e469365cae3526d7e14"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE.txt",
+          "blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+          "url": "https://github.com/goldmansachs/jdmn/blob/a68b9a895be74e062957530864e352f4a109736d/LICENSE.txt",
+          "observed_at": "2026-11-15T00:29:47+08:00",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "goldmansachs/docknight_lib",
+      "relationship": "bank-owned",
+      "institution": "Goldman Sachs",
+      "categories": [
+        "institutions",
+        "investment-banking"
+      ],
+      "use": "文档结构和表格抽取，研究财务文档输入层。",
+      "boundary": "抽取结果需要页码溯源和人工核对；不是完整尽调引擎。",
+      "url": "https://github.com/goldmansachs/docknight_lib",
+      "description": null,
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "master",
+      "pushed_at": "2023-03-20T19:22:32Z",
+      "size_kb": 9720,
+      "license_signal": "Apache-2.0",
+      "requested_repository": "goldmansachs/docknight_lib",
+      "observed_at": "2026-11-15T00:29:47+08:00",
+      "head": "66d3293866a30c459dd56df2b5113ac1f1ff9fae",
+      "head_date": "2021-05-10T08:48:13Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "1a6ad71d1a2964f72e3320de2d217c41cf55ce94",
+          "url": "https://github.com/goldmansachs/docknight_lib/blob/66d3293866a30c459dd56df2b5113ac1f1ff9fae/README.md",
+          "observed_at": "2026-11-15T00:29:49+08:00",
+          "sha256": "9a3e9f210ba031a85cce195d8498c75969fbb10d5e25ab7692a61327d6d793a0"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE.txt",
+          "blob_sha": "7a4a3ea2424c09fbe48d455aed1eaa94d9124835",
+          "url": "https://github.com/goldmansachs/docknight_lib/blob/66d3293866a30c459dd56df2b5113ac1f1ff9fae/LICENSE.txt",
+          "observed_at": "2026-11-15T00:29:50+08:00",
+          "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "jpmorganchase/fusion",
+      "relationship": "bank-owned",
+      "institution": "JPMorgan Chase",
+      "categories": [
+        "institutions",
+        "investment-banking"
+      ],
+      "use": "Fusion 数据平台 Python SDK；区分发现、下载和数据权限。",
+      "boundary": "需按产品注册、认证及订阅权益使用；SDK 不提供免费数据。",
+      "license_note": "GitHub 分类为 NOASSERTION；已读固定 LICENSE 的 Apache Software License 2.0 声明。保留分类与原文差异，不推断无授权。",
+      "url": "https://github.com/jpmorganchase/fusion",
+      "description": "PyFusion is the Python SDK for the Fusion platform API.",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "master",
+      "pushed_at": "2026-06-26T10:47:06Z",
+      "size_kb": 8126,
+      "license_signal": "NOASSERTION",
+      "requested_repository": "jpmorganchase/fusion",
+      "observed_at": "2026-11-15T00:29:51+08:00",
+      "head": "a0d6e547f7adcaeeaddf7b96fdc0d0efe50a2491",
+      "head_date": "2026-06-09T15:32:10Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "2ecbd345364ac1bfa5f5e12308d177dda14f68e7",
+          "url": "https://github.com/jpmorganchase/fusion/blob/a0d6e547f7adcaeeaddf7b96fdc0d0efe50a2491/README.md",
+          "observed_at": "2026-11-15T00:29:54+08:00",
+          "sha256": "5a127dd180244dd588d352d78f2d76c65af142f1ea101848b4d7e1d10aff04ac"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE",
+          "blob_sha": "ca88e56bcfa0a850b3a8b6a14854b8f6f3c0ee60",
+          "url": "https://github.com/jpmorganchase/fusion/blob/a0d6e547f7adcaeeaddf7b96fdc0d0efe50a2491/LICENSE",
+          "observed_at": "2026-11-15T00:29:55+08:00",
+          "sha256": "13de05f3979b3d47423751e68a16122c8d5a8f17439193f0ea38fc9e9b1d4505"
+        }
+      ],
+      "license_class": "needs-license-review",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "jpmorganchase/fusion-java-sdk",
+      "relationship": "bank-owned",
+      "institution": "JPMorgan Chase",
+      "categories": [
+        "institutions",
+        "investment-banking"
+      ],
+      "use": "Fusion 的 Java 数据接入接口。",
+      "boundary": "同样受账户、产品条款和数据授权约束。",
+      "license_note": "GitHub 分类为 NOASSERTION；固定 LICENSE 声明 Apache Software License 2.0。必须读原文与依赖许可。",
+      "url": "https://github.com/jpmorganchase/fusion-java-sdk",
+      "description": "A Java SDK for the Fusion platform API",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "pushed_at": "2026-02-17T16:39:07Z",
+      "size_kb": 595,
+      "license_signal": "NOASSERTION",
+      "requested_repository": "jpmorganchase/fusion-java-sdk",
+      "observed_at": "2026-11-15T00:29:56+08:00",
+      "head": "fb8cfed600be35022a6d441b6f685161ab3a020a",
+      "head_date": "2026-02-17T16:39:07Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "965a57bca238241f4c1e967baac7e3f243415eb6",
+          "url": "https://github.com/jpmorganchase/fusion-java-sdk/blob/fb8cfed600be35022a6d441b6f685161ab3a020a/README.md",
+          "observed_at": "2026-11-15T00:29:58+08:00",
+          "sha256": "76aaddc292d2c0db5b107a883d1f4e2cc794966628bcd8559940ff7faefc9f39"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE",
+          "blob_sha": "ca88e56bcfa0a850b3a8b6a14854b8f6f3c0ee60",
+          "url": "https://github.com/jpmorganchase/fusion-java-sdk/blob/fb8cfed600be35022a6d441b6f685161ab3a020a/LICENSE",
+          "observed_at": "2026-11-15T00:29:59+08:00",
+          "sha256": "13de05f3979b3d47423751e68a16122c8d5a8f17439193f0ea38fc9e9b1d4505"
+        }
+      ],
+      "license_class": "needs-license-review",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "jpmorganchase/fusion-notebooks",
+      "relationship": "bank-owned",
+      "institution": "JPMorgan Chase",
+      "categories": [
+        "institutions",
+        "investment-banking"
+      ],
+      "use": "阅读 PyFusion 的工作流示例和 notebook。",
+      "boundary": "示例不是已验证的投资研究结果；不要提交账户配置。",
+      "url": "https://github.com/jpmorganchase/fusion-notebooks",
+      "description": "Code and Jupyter notebooks that provide working examples of how to use the PyFusion SDK",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "master",
+      "pushed_at": "2022-05-30T13:09:42Z",
+      "size_kb": 3,
+      "license_signal": null,
+      "requested_repository": "jpmorganchase/fusion-notebooks",
+      "observed_at": "2026-11-15T00:30:00+08:00",
+      "head": "33bf9974ad7e7bc6f958d199ce00d04d50546964",
+      "head_date": "2022-05-30T13:09:05Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "a8e5a8d536261c25c285293821d08b7969736f0e",
+          "url": "https://github.com/jpmorganchase/fusion-notebooks/blob/33bf9974ad7e7bc6f958d199ce00d04d50546964/README.md",
+          "observed_at": "2026-11-15T00:30:02+08:00",
+          "sha256": "be41da95a4922ecbe0e9a74c8d79b8d503a1548eedd535de743b4e6049984963"
+        }
+      ],
+      "license_class": "needs-license-review",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "jpmorganchase/dataquery-sdk",
+      "relationship": "bank-owned",
+      "institution": "JPMorgan Chase",
+      "categories": [
+        "institutions",
+        "investment-banking"
+      ],
+      "use": "DataQuery 的查询、下载、重试和配额处理。",
+      "boundary": "DataQuery 与 Fusion 不是同一服务；必须单独核对数据订阅和认证。",
+      "url": "https://github.com/jpmorganchase/dataquery-sdk",
+      "description": "DataQuery SDK is a high-performance Python SDK for the DATAQUERY Data API, providing seamless access to JPMorgan data with advanced features like querying, downloading, availability checking, rate limiting, retry logic, connection pool monitoring, and comprehensive logging.",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "pushed_at": "2026-11-05T21:03:44Z",
+      "size_kb": 2098,
+      "license_signal": "Apache-2.0",
+      "requested_repository": "jpmorganchase/dataquery-sdk",
+      "observed_at": "2026-11-15T00:30:05+08:00",
+      "head": "bdf378f3b5b0b94df928bd9ccdbfcf748412e544",
+      "head_date": "2026-11-05T20:55:59Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "306a6dc75a9a40853e17d793e06d6334c3f0ee59",
+          "url": "https://github.com/jpmorganchase/dataquery-sdk/blob/bdf378f3b5b0b94df928bd9ccdbfcf748412e544/README.md",
+          "observed_at": "2026-11-15T00:30:07+08:00",
+          "sha256": "dc9a9f805aa12cca747f324901e18924e08e034225a90958d642b4d540c54231"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE",
+          "blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+          "url": "https://github.com/jpmorganchase/dataquery-sdk/blob/bdf378f3b5b0b94df928bd9ccdbfcf748412e544/LICENSE",
+          "observed_at": "2026-11-15T00:30:08+08:00",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "jpmorganchase/python-training",
+      "relationship": "bank-owned",
+      "institution": "JPMorgan Chase",
+      "categories": [
+        "institutions",
+        "investment-banking"
+      ],
+      "use": "面向分析师/交易者的 Python 学习材料。",
+      "boundary": "培训仓库不是 JPM 生产模型、投行岗位认证或策略。",
+      "url": "https://github.com/jpmorganchase/python-training",
+      "description": "Python training for business analysts and traders",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "pushed_at": "2026-11-13T21:42:36Z",
+      "size_kb": 1656,
+      "license_signal": "Apache-2.0",
+      "requested_repository": "jpmorganchase/python-training",
+      "observed_at": "2026-11-15T00:30:09+08:00",
+      "head": "0c536090508181dcfcd64fbcfbfa507cda2db93c",
+      "head_date": "2026-08-24T14:00:00Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "b48ac7ad67a8522100755e5b58917f395e28c71f",
+          "url": "https://github.com/jpmorganchase/python-training/blob/0c536090508181dcfcd64fbcfbfa507cda2db93c/README.md",
+          "observed_at": "2026-11-15T00:30:11+08:00",
+          "sha256": "62a3f149b7026c5739040135db65fb720d94df40180c97bc9b52644a1b3e5a2a"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE",
+          "blob_sha": "060d3b468eee769f04692b988f23e6e063af1e39",
+          "url": "https://github.com/jpmorganchase/python-training/blob/0c536090508181dcfcd64fbcfbfa507cda2db93c/LICENSE",
+          "observed_at": "2026-11-15T00:30:12+08:00",
+          "sha256": "09860a7dece10b41085389e2d75fbc8b6624b9cdbcf520c32ff08b384cd278bc"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "jpmorganchase/abides-jpmc-public",
+      "relationship": "bank-owned",
+      "institution": "JPMorgan Chase",
+      "categories": [
+        "institutions",
+        "investment-banking"
+      ],
+      "use": "代理驱动的市场模拟与微观结构研究。",
+      "boundary": "模拟输出不是可交易 alpha，也不是并购估值。",
+      "url": "https://github.com/jpmorganchase/abides-jpmc-public",
+      "description": null,
+      "private": false,
+      "fork": false,
+      "archived": true,
+      "default_branch": "main",
+      "pushed_at": "2024-07-22T15:22:04Z",
+      "size_kb": 1915,
+      "license_signal": "NOASSERTION",
+      "requested_repository": "jpmorganchase/abides-jpmc-public",
+      "observed_at": "2026-11-15T00:30:13+08:00",
+      "head": "f9cbe51342b7dedd9587e4e069040d68a5c6477f",
+      "head_date": "2023-12-13T08:44:09Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "c51421f8643f34ac41c0e55312db4a6226c0d69a",
+          "url": "https://github.com/jpmorganchase/abides-jpmc-public/blob/f9cbe51342b7dedd9587e4e069040d68a5c6477f/README.md",
+          "observed_at": "2026-11-15T00:30:15+08:00",
+          "sha256": "8051f758c5de5f994d0cb52aa3b610f1248ed5073f27d2b766b8b5b93f9afdc9"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE",
+          "blob_sha": "40eeb787c4ad07229543f2a7f7cebc1e8f4486ee",
+          "url": "https://github.com/jpmorganchase/abides-jpmc-public/blob/f9cbe51342b7dedd9587e4e069040d68a5c6477f/LICENSE",
+          "observed_at": "2026-11-15T00:30:16+08:00",
+          "sha256": "eb7436304f90842b81820fe1bff61e4cfba74584021797bd2273680b8c15e8f9"
+        }
+      ],
+      "license_class": "needs-license-review",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "jpmorganchase/SFinX",
+      "relationship": "bank-owned",
+      "institution": "JPMorgan Chase",
+      "categories": [
+        "institutions",
+        "investment-banking"
+      ],
+      "use": "数值、指标、期间型 Excel 表格的标准化抽取，输出 TSV/JSON。",
+      "boundary": "已归档；不是通用 LLM 财报抽取器，也不可替代财报审计或事实核验。",
+      "url": "https://github.com/jpmorganchase/SFinX",
+      "description": "Standardized FINancial eXtractions",
+      "private": false,
+      "fork": false,
+      "archived": true,
+      "default_branch": "main",
+      "pushed_at": "2022-04-28T00:12:05Z",
+      "size_kb": 950,
+      "license_signal": "Apache-2.0",
+      "requested_repository": "jpmorganchase/SFinX",
+      "observed_at": "2026-11-15T00:30:17+08:00",
+      "head": "7f07c61f16017edd39bdd8a798bcf5c0a7c44284",
+      "head_date": "2022-04-28T00:12:05Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "1709760d34ffcacb447ccead7c0afd7d753c6990",
+          "url": "https://github.com/jpmorganchase/SFinX/blob/7f07c61f16017edd39bdd8a798bcf5c0a7c44284/README.md",
+          "observed_at": "2026-11-15T00:30:19+08:00",
+          "sha256": "c0aa29e26c532834c6aa75b0ae1e75aee57be6dc4a23105b53e668a113f40099"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE",
+          "blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+          "url": "https://github.com/jpmorganchase/SFinX/blob/7f07c61f16017edd39bdd8a798bcf5c0a7c44284/LICENSE",
+          "observed_at": "2026-11-15T00:30:20+08:00",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "jpmorganchase/PADL",
+      "relationship": "bank-owned",
+      "institution": "JPMorgan Chase",
+      "categories": [
+        "institutions",
+        "corporate-banking"
+      ],
+      "use": "隐私、可审计分布式账本与零知识证明研究。",
+      "boundary": "不是 Kinexys 的完整生产支付系统，未在本轮运行。",
+      "url": "https://github.com/jpmorganchase/PADL",
+      "description": "PADL - Private, Auditable and Distributed ledger, is a tool based on zero-knowledge proofs for exploring and building private and auditable ledger in blockchain applications of financial institutes. ",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "pushed_at": "2026-11-06T20:44:34Z",
+      "size_kb": 15489,
+      "license_signal": "Apache-2.0",
+      "requested_repository": "jpmorganchase/PADL",
+      "observed_at": "2026-11-15T00:30:21+08:00",
+      "head": "3dcab606e81802b305c54b151769850636999957",
+      "head_date": "2025-06-16T15:47:47Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "25e183288daf4970611c506d243a0839ca94d230",
+          "url": "https://github.com/jpmorganchase/PADL/blob/3dcab606e81802b305c54b151769850636999957/README.md",
+          "observed_at": "2026-11-15T00:30:24+08:00",
+          "sha256": "05e89ecf2042a5080f0b97ff06611eec3dfe9df547368b61183f576e3e51f2cd"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE.txt",
+          "blob_sha": "3b48432629fc146dad3eb1a06ae4f8c04675eb9c",
+          "url": "https://github.com/jpmorganchase/PADL/blob/3dcab606e81802b305c54b151769850636999957/LICENSE.txt",
+          "observed_at": "2026-11-15T00:30:25+08:00",
+          "sha256": "181fe45b5a99515a43e1186e6eec96bd6bcfb6a6196bdb0d29c68dbf422ebbca"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "morganstanley/optimus-cirrus",
+      "relationship": "bank-owned",
+      "institution": "Morgan Stanley",
+      "categories": [
+        "institutions",
+        "investment-banking"
+      ],
+      "use": "Optimus 工程体系；研究依赖计算、缓存和数据处理边界。",
+      "boundary": "README 仍提示构建工具引导工作；未验证可独立构建，不可声称获得 MS 估值/风险模型。",
+      "url": "https://github.com/morganstanley/optimus-cirrus",
+      "description": null,
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "pushed_at": "2025-12-24T17:09:27Z",
+      "size_kb": 10948,
+      "license_signal": "Apache-2.0",
+      "requested_repository": "morganstanley/optimus-cirrus",
+      "observed_at": "2026-11-15T00:30:26+08:00",
+      "head": "ed0aab2e33e9d6a4a1504d2cdfbb3cc0ac8530d8",
+      "head_date": "2025-12-24T17:09:27Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": ".github/README.md",
+          "blob_sha": "4b44cfcd7436b0e1131ef866e81121f2d89749bf",
+          "url": "https://github.com/morganstanley/optimus-cirrus/blob/ed0aab2e33e9d6a4a1504d2cdfbb3cc0ac8530d8/.github/README.md",
+          "observed_at": "2026-11-15T00:30:28+08:00",
+          "sha256": "4fe603b9f5e74db8f0d0e74fcef306a25ef94cf4bfec80b00f89b1c38081ee88"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE",
+          "blob_sha": "64456e7fd6cdb3f4716acf7599c1e35e0557a5ba",
+          "url": "https://github.com/morganstanley/optimus-cirrus/blob/ed0aab2e33e9d6a4a1504d2cdfbb3cc0ac8530d8/LICENSE",
+          "observed_at": "2026-11-15T00:30:29+08:00",
+          "sha256": "596e345672bb6511217cba805d8f6102aa72392d204bb2c232a9802e86814371"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "morganstanley/ComposeUI",
+      "relationship": "bank-owned",
+      "institution": "Morgan Stanley",
+      "categories": [
+        "institutions",
+        "investment-banking"
+      ],
+      "use": "混合桌面容器与应用集成，可用于研究终端原型。",
+      "boundary": "UI 容器不是可交易、已认证的投行终端。",
+      "url": "https://github.com/morganstanley/ComposeUI",
+      "description": "A .NET Core based, WebView2 using UI Container for hybrid web-desktop applications",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "pushed_at": "2026-11-14T03:44:43Z",
+      "size_kb": 29793,
+      "license_signal": "Apache-2.0",
+      "requested_repository": "morganstanley/ComposeUI",
+      "observed_at": "2026-11-15T00:30:52+08:00",
+      "head": "eda8d7b338354903cc6c667e5421363946ccf213",
+      "head_date": "2026-11-07T18:39:36Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "88f3599149610bcc4e6ddb1371d3b635e6426b57",
+          "url": "https://github.com/morganstanley/ComposeUI/blob/eda8d7b338354903cc6c667e5421363946ccf213/README.md",
+          "observed_at": "2026-11-15T00:30:54+08:00",
+          "sha256": "a24026715cfa44f12ce74af96f50b2679a98a91573620a7e716fa865818f3e0c"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE",
+          "blob_sha": "4f03a9390f469767fa45dc0b79c3a12cfdb7fe54",
+          "url": "https://github.com/morganstanley/ComposeUI/blob/eda8d7b338354903cc6c667e5421363946ccf213/LICENSE",
+          "observed_at": "2026-11-15T00:30:55+08:00",
+          "sha256": "2cb06fd56bac82076dc3813df51a51b876745ea16bfea00e6d507282adddaa3a"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "morganstanley/desktopJS",
+      "relationship": "bank-owned",
+      "institution": "Morgan Stanley",
+      "categories": [
+        "institutions",
+        "investment-banking"
+      ],
+      "use": "跨 HTML5 桌面容器的接口抽象。",
+      "boundary": "只收录架构参考；维护状态以快照为准。",
+      "url": "https://github.com/morganstanley/desktopJS",
+      "description": "desktopJS provides a common API across multiple HTML5 containers. By programming to a common API, applications can target multiple HTML5 containers without change.",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "pushed_at": "2026-11-03T21:44:40Z",
+      "size_kb": 5002,
+      "license_signal": "Apache-2.0",
+      "requested_repository": "morganstanley/desktopJS",
+      "observed_at": "2026-11-15T00:30:56+08:00",
+      "head": "b47a45fdf366c535d93755979c1b3e55dd7df64e",
+      "head_date": "2026-11-03T21:44:29Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "a0a00024c00172f57520c433a1752169d05c610d",
+          "url": "https://github.com/morganstanley/desktopJS/blob/b47a45fdf366c535d93755979c1b3e55dd7df64e/README.md",
+          "observed_at": "2026-11-15T00:30:58+08:00",
+          "sha256": "3ef86f44be54aa908f0a75e006ce14b98393b4e050efeebe84c422fdfdc9859e"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE",
+          "blob_sha": "4f03a9390f469767fa45dc0b79c3a12cfdb7fe54",
+          "url": "https://github.com/morganstanley/desktopJS/blob/b47a45fdf366c535d93755979c1b3e55dd7df64e/LICENSE",
+          "observed_at": "2026-11-15T00:30:59+08:00",
+          "sha256": "2cb06fd56bac82076dc3813df51a51b876745ea16bfea00e6d507282adddaa3a"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "morganstanley/pyfixmsg",
+      "relationship": "bank-owned",
+      "institution": "Morgan Stanley",
+      "categories": [
+        "institutions",
+        "investment-banking"
+      ],
+      "use": "FIX 消息解析、修改、序列化与测试。",
+      "boundary": "FIX 解析器不包含交易所接入、会话管理或下单授权。",
+      "url": "https://github.com/morganstanley/pyfixmsg",
+      "description": "pyfixmsg is a library for parsing, manipulating and serialising FIX messages, primarily geared towards testing.",
+      "private": false,
+      "fork": false,
+      "archived": true,
+      "default_branch": "master",
+      "pushed_at": "2023-09-05T13:14:18Z",
+      "size_kb": 64,
+      "license_signal": "Apache-2.0",
+      "requested_repository": "morganstanley/pyfixmsg",
+      "observed_at": "2026-11-15T00:31:00+08:00",
+      "head": "b7f1bfbd0c8c53b8836767d38bf78e3268b0cadb",
+      "head_date": "2023-09-05T13:14:13Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "ef00ef08c8445a31786da49b57fd13a8fbea040c",
+          "url": "https://github.com/morganstanley/pyfixmsg/blob/b7f1bfbd0c8c53b8836767d38bf78e3268b0cadb/README.md",
+          "observed_at": "2026-11-15T00:31:02+08:00",
+          "sha256": "1afa0800d6a8bb8f39b60ba52d3dc4069bf1ecc174288c37e778dd962f27bedf"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE.md",
+          "blob_sha": "764db21569d844a5162f4fc8e595732b19f9d588",
+          "url": "https://github.com/morganstanley/pyfixmsg/blob/b7f1bfbd0c8c53b8836767d38bf78e3268b0cadb/LICENSE.md",
+          "observed_at": "2026-11-15T00:31:03+08:00",
+          "sha256": "35bb884e12a6782b6608b84b7ba20ca82bb15a8d7aad92a06d92984fbfd1421a"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "morganstanley/testplan",
+      "relationship": "bank-owned",
+      "institution": "Morgan Stanley",
+      "categories": [
+        "institutions",
+        "corporate-banking",
+        "investment-banking"
+      ],
+      "use": "多层级测试、系统集成验收与报告。",
+      "boundary": "属于通用测试基础设施，金融正确性仍需独立 oracle。",
+      "url": "https://github.com/morganstanley/testplan",
+      "description": "Testplan, a multi-testing framework, because unit tests can only go so far..",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "pushed_at": "2026-11-13T06:37:32Z",
+      "size_kb": 10193,
+      "license_signal": "Apache-2.0",
+      "requested_repository": "morganstanley/testplan",
+      "observed_at": "2026-11-15T00:31:04+08:00",
+      "head": "0dc2effb2472dae3e40fea4bb06e1760cf398362",
+      "head_date": "2026-11-13T06:34:51Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.rst",
+          "blob_sha": "3d95ba1056221f8b632b5bc264aaeb50f1fccae0",
+          "url": "https://github.com/morganstanley/testplan/blob/0dc2effb2472dae3e40fea4bb06e1760cf398362/README.rst",
+          "observed_at": "2026-11-15T00:31:06+08:00",
+          "sha256": "51665b352f236157454bac412948c0c1dbe41ce6b3a2800af6845f7d6e46b3cf"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE.md",
+          "blob_sha": "0dd2ef434de206f2e52487b6215df598442e4032",
+          "url": "https://github.com/morganstanley/testplan/blob/0dc2effb2472dae3e40fea4bb06e1760cf398362/LICENSE.md",
+          "observed_at": "2026-11-15T00:31:06+08:00",
+          "sha256": "c490e47f2dbc1dac57710328d4dfb2e82d1e9e9a8bf09ed91df39d035bfcdc9c"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "morganstanley/api",
+      "relationship": "bank-owned",
+      "institution": "Morgan Stanley",
+      "categories": [
+        "institutions",
+        "corporate-banking",
+        "investment-banking"
+      ],
+      "use": "MS API Program 的样例和开发入口。",
+      "boundary": "样例不授予产品、账户、支付或客户资料权限。",
+      "url": "https://github.com/morganstanley/api",
+      "description": "Code samples and starter projects for accessing the Morgan Stanley API Program",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "pushed_at": "2026-11-10T13:40:24Z",
+      "size_kb": 1209,
+      "license_signal": "Apache-2.0",
+      "requested_repository": "morganstanley/api",
+      "observed_at": "2026-11-15T00:31:08+08:00",
+      "head": "c53e0e6e0e191b1ef2a79621b2ead0361b4ba5ec",
+      "head_date": "2026-11-10T13:40:13Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "77a5a8c57f233e6de65d9fb345a96cee19439a89",
+          "url": "https://github.com/morganstanley/api/blob/c53e0e6e0e191b1ef2a79621b2ead0361b4ba5ec/README.md",
+          "observed_at": "2026-11-15T00:31:10+08:00",
+          "sha256": "5a7f185ea2782da58df7bb92493e428c207a75854d612fc175d208909d056078"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE",
+          "blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+          "url": "https://github.com/morganstanley/api/blob/c53e0e6e0e191b1ef2a79621b2ead0361b4ba5ec/LICENSE",
+          "observed_at": "2026-11-15T00:31:11+08:00",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "deutschebank/deutsche-bank-api-program",
+      "relationship": "bank-owned",
+      "institution": "Deutsche Bank",
+      "categories": [
+        "institutions",
+        "corporate-banking"
+      ],
+      "use": "开放银行 API、沙盒和开发示例。",
+      "boundary": "不等于已开放完整对公 API，也不是 Autobahn 定价引擎。",
+      "url": "https://github.com/deutschebank/deutsche-bank-api-program",
+      "description": "Open banking nowadays is not just a fashionable term, but has found its way into the everyday life of many financial service providers. With the API Program, Deutsche Bank makes a large amount of customer data accessible to third parties via public APIs. The technical cornerstone of this is the Developer Portal. With this repo, we would like to make it a little easier for interested developers to access our APIs, documentation and the sandbox",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "master",
+      "pushed_at": "2026-11-03T09:03:45Z",
+      "size_kb": 20,
+      "license_signal": "NOASSERTION",
+      "requested_repository": "deutschebank/deutsche-bank-api-program",
+      "observed_at": "2026-11-15T00:31:12+08:00",
+      "head": "4dc77909a1a6b4b04f6dd8966fa8154d2572459a",
+      "head_date": "2026-11-03T08:19:05Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "efedfe06d1618bc6874e4e1ec68049c3ad4c9224",
+          "url": "https://github.com/deutschebank/deutsche-bank-api-program/blob/4dc77909a1a6b4b04f6dd8966fa8154d2572459a/README.md",
+          "observed_at": "2026-11-15T00:31:13+08:00",
+          "sha256": "9576cbb27bc5e034c2dc43fb2ab6d105bbeb1efd97108343f8d95ea9f4033cf7"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE.txt",
+          "blob_sha": "599b90e743a42895165b79d59ff0e0e497744594",
+          "url": "https://github.com/deutschebank/deutsche-bank-api-program/blob/4dc77909a1a6b4b04f6dd8966fa8154d2572459a/LICENSE.txt",
+          "observed_at": "2026-11-15T00:31:15+08:00",
+          "sha256": "66ae68087fb2eeb1e3e5c1532efa90fe56262e4104efa87e727968880c806793"
+        }
+      ],
+      "license_class": "needs-license-review",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "deutschebank/dbMango",
+      "relationship": "bank-owned",
+      "institution": "Deutsche Bank",
+      "categories": [
+        "institutions",
+        "corporate-banking"
+      ],
+      "use": "带角色控制、审计和数据操作功能的 MongoDB 管理工具。",
+      "boundary": "README 明确一个德银专有数据插件不公开；不是信贷/支付引擎，不采集该插件。",
+      "license_note": "README 含 Apache-2.0 SPDX 声明，保留与 API NOASSERTION 分类的差异。",
+      "url": "https://github.com/deutschebank/dbMango",
+      "description": "The main objective of making dbMango open source is to foster collaboration, innovation, and transparency while leveraging the collective expertise of the global developer community.",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "master",
+      "pushed_at": "2026-09-16T14:57:25Z",
+      "size_kb": 2298,
+      "license_signal": "NOASSERTION",
+      "requested_repository": "deutschebank/dbMango",
+      "observed_at": "2026-11-15T00:31:16+08:00",
+      "head": "40b75dcbd4ec79436129c070d93af2098b0da234",
+      "head_date": "2026-09-16T14:57:24Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "97d5f35238550813b469950dad5af9bd346918e0",
+          "url": "https://github.com/deutschebank/dbMango/blob/40b75dcbd4ec79436129c070d93af2098b0da234/README.md",
+          "observed_at": "2026-11-15T00:31:19+08:00",
+          "sha256": "6c402f04c162dcea3dc229c1473d49111a3b7e5be1d6fbe899796d63dbf41c07"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "OSS-LICENSES.md",
+          "blob_sha": "e63697957a3df163b985de227ad438c327fc41f2",
+          "url": "https://github.com/deutschebank/dbMango/blob/40b75dcbd4ec79436129c070d93af2098b0da234/OSS-LICENSES.md",
+          "observed_at": "2026-11-15T00:31:20+08:00",
+          "sha256": "ff619e017087767a00ebeecc58f45ef36885951c45f8a6abb503bbde0ea2b6d3"
+        }
+      ],
+      "license_class": "needs-license-review",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "finos/legend",
+      "relationship": "foundation-project",
+      "institution": "FINOS / Goldman Sachs origin",
+      "categories": [
+        "institutions",
+        "corporate-banking",
+        "investment-banking"
+      ],
+      "use": "Legend 总入口：数据建模、映射、治理。",
+      "boundary": "当前为 FINOS 项目，不等于 GS 内部模型和客户数据。",
+      "url": "https://github.com/finos/legend",
+      "description": "The Legend project",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "master",
+      "pushed_at": "2026-11-14T06:17:39Z",
+      "size_kb": 160988,
+      "license_signal": "Apache-2.0",
+      "requested_repository": "finos/legend",
+      "observed_at": "2026-11-15T00:31:21+08:00",
+      "head": "db348ba4d4504e3d2e3047cb683397a5280fef0f",
+      "head_date": "2026-11-14T02:32:52Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "5810aa7935b557b2038c20fa11d0162b6638e5eb",
+          "url": "https://github.com/finos/legend/blob/db348ba4d4504e3d2e3047cb683397a5280fef0f/README.md",
+          "observed_at": "2026-11-15T00:31:24+08:00",
+          "sha256": "4c3bc7e934d5d12a4fa1f5cadf94e467924ed164c052204f843c49925b9ee37f"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE",
+          "blob_sha": "034e232c4436a1ae134329fa10a7f2a666cec4ba",
+          "url": "https://github.com/finos/legend/blob/db348ba4d4504e3d2e3047cb683397a5280fef0f/LICENSE",
+          "observed_at": "2026-11-15T00:31:26+08:00",
+          "sha256": "ab28b7c9347f980502d56a7f0dbd637260422fe1c644109dbfbbcaa2d3d76fa2"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "finos/legend-engine",
+      "relationship": "foundation-project",
+      "institution": "FINOS / Legend",
+      "categories": [
+        "institutions",
+        "corporate-banking",
+        "investment-banking"
+      ],
+      "use": "Legend 执行与服务层，与 Studio 界面分开阅读。",
+      "boundary": "数据源连接的权限与各数据库条款必须单独获得。",
+      "url": "https://github.com/finos/legend-engine",
+      "description": "Legend Engine module",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "master",
+      "pushed_at": "2026-11-14T05:44:13Z",
+      "size_kb": 246216,
+      "license_signal": "Apache-2.0",
+      "requested_repository": "finos/legend-engine",
+      "observed_at": "2026-11-15T00:31:27+08:00",
+      "head": "05a3d33c4316c05ab6828f7c416de65cd9ffe0c8",
+      "head_date": "2026-11-14T05:44:12Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "66bcc412e759a55ea754201fc0c7a369c4e90048",
+          "url": "https://github.com/finos/legend-engine/blob/05a3d33c4316c05ab6828f7c416de65cd9ffe0c8/README.md",
+          "observed_at": "2026-11-15T00:31:30+08:00",
+          "sha256": "4b51ab4cf7c0cd188f89f9751432980d23e16c1353f4b118ce597ac573749111"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE",
+          "blob_sha": "9c4d977008e584f17d1e6751cfd20066a55ae3f4",
+          "url": "https://github.com/finos/legend-engine/blob/05a3d33c4316c05ab6828f7c416de65cd9ffe0c8/LICENSE",
+          "observed_at": "2026-11-15T00:31:31+08:00",
+          "sha256": "1e130d11fbea48f8a0ea98c682f6f20f6b8b199ee749337f71801cbe916677ba"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "finos/legend-studio",
+      "relationship": "foundation-project",
+      "institution": "FINOS / Legend",
+      "categories": [
+        "institutions",
+        "corporate-banking",
+        "investment-banking"
+      ],
+      "use": "数据建模和服务工作流前端。",
+      "boundary": "本轮不安装，不宣称已形成银行级数据治理部署。",
+      "url": "https://github.com/finos/legend-studio",
+      "description": "Legend Studio",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "master",
+      "pushed_at": "2026-11-14T02:27:35Z",
+      "size_kb": 141434,
+      "license_signal": "Apache-2.0",
+      "requested_repository": "finos/legend-studio",
+      "observed_at": "2026-11-15T00:31:32+08:00",
+      "head": "9775e7283cf2e768293db9982573cecbe8280c4b",
+      "head_date": "2026-11-14T02:13:15Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "3e42545e3c07227ea34f519cee8b74d372dd19ab",
+          "url": "https://github.com/finos/legend-studio/blob/9775e7283cf2e768293db9982573cecbe8280c4b/README.md",
+          "observed_at": "2026-11-15T00:31:34+08:00",
+          "sha256": "5396f05a2f9263c8f73657842961c4f1ed8e0b8383bf8079be64ac9ce1eff684"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE",
+          "blob_sha": "79a3568cbdcfbe00b73674ba28a22d72d9d66616",
+          "url": "https://github.com/finos/legend-studio/blob/9775e7283cf2e768293db9982573cecbe8280c4b/LICENSE",
+          "observed_at": "2026-11-15T00:31:35+08:00",
+          "sha256": "801f98c5e17667a67a2ecec979b834b5b95bfb08983596f87ad5fc899ab99b15"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "finos/waltz",
+      "relationship": "foundation-project",
+      "institution": "FINOS / Deutsche Bank origin",
+      "categories": [
+        "institutions",
+        "corporate-banking"
+      ],
+      "use": "应用、数据流和企业架构依赖地图。",
+      "boundary": "是企业架构工具，不是直接产生贷款定价或交易信号。",
+      "url": "https://github.com/finos/waltz",
+      "description": "Enterprise Information Service",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "master",
+      "pushed_at": "2026-10-09T11:07:16Z",
+      "size_kb": 70419,
+      "license_signal": "Apache-2.0",
+      "requested_repository": "finos/waltz",
+      "observed_at": "2026-11-15T00:31:36+08:00",
+      "head": "f0af61fe3b7ba79454983b56fd948cae4bb551b6",
+      "head_date": "2026-10-01T08:04:28Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "24c2f9c68531ce8828cea1d7f85edfe2fc250e40",
+          "url": "https://github.com/finos/waltz/blob/f0af61fe3b7ba79454983b56fd948cae4bb551b6/README.md",
+          "observed_at": "2026-11-15T00:31:38+08:00",
+          "sha256": "bf79ec7c7665b4e9579213e29b01730feb708c7abcdf30ae1de1a02419ea69c4"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "license.txt",
+          "blob_sha": "19dc35b2433851a0e8fd866a5d323b2ba18c12ed",
+          "url": "https://github.com/finos/waltz/blob/f0af61fe3b7ba79454983b56fd948cae4bb551b6/license.txt",
+          "observed_at": "2026-11-15T00:31:39+08:00",
+          "sha256": "c8858a5a76440bbca484e134cf7df46385d090dd18b2c58e650f939258802e5b"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "finos/plexus-interop",
+      "relationship": "foundation-project",
+      "institution": "FINOS / Deutsche Bank origin",
+      "categories": [
+        "institutions",
+        "investment-banking"
+      ],
+      "use": "历史 Autobahn 桌面互操作架构。",
+      "boundary": "归档项目只作历史参考；没有开放 Autobahn 的完整业务代码。",
+      "url": "https://github.com/finos/plexus-interop",
+      "description": "Plexus Interop open source project hosted by the Fintech Open Source Foundation",
+      "private": false,
+      "fork": false,
+      "archived": true,
+      "default_branch": "master",
+      "pushed_at": "2024-03-05T17:55:57Z",
+      "size_kb": 9802,
+      "license_signal": "Apache-2.0",
+      "requested_repository": "finos/plexus-interop",
+      "observed_at": "2026-11-15T00:31:40+08:00",
+      "head": "66ba7daa0781cc339abfed25717ecf9a3ccc43de",
+      "head_date": "2024-03-05T17:55:57Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "83052a4f00525247d8d25bdec922c132f721375f",
+          "url": "https://github.com/finos/plexus-interop/blob/66ba7daa0781cc339abfed25717ecf9a3ccc43de/README.md",
+          "observed_at": "2026-11-15T00:31:43+08:00",
+          "sha256": "fd03ed7b2b79a36cd2bce5a2c6f6df3519edd35724e26efa77bc0aa66fddee2a"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE",
+          "blob_sha": "6b640aa56c45f5ffa717436e23ab26617edcebd3",
+          "url": "https://github.com/finos/plexus-interop/blob/66ba7daa0781cc339abfed25717ecf9a3ccc43de/LICENSE",
+          "observed_at": "2026-11-15T00:31:44+08:00",
+          "sha256": "846a49a6e937391df9c84adfdd5779c19af2222262ce354db9cd27d2cfcd6aa5"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "finos/morphir",
+      "relationship": "foundation-project",
+      "institution": "FINOS",
+      "categories": [
+        "corporate-banking",
+        "investment-banking"
+      ],
+      "use": "业务逻辑的类型化建模和可移植中间表示。",
+      "boundary": "信贷决策/定价是拟议研究方向，不是本轮验证结果。",
+      "url": "https://github.com/finos/morphir",
+      "description": "A universal language for business and technology",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "pushed_at": "2026-11-14T12:05:24Z",
+      "size_kb": 2546647,
+      "license_signal": "Apache-2.0",
+      "requested_repository": "finos/morphir",
+      "observed_at": "2026-11-15T00:31:45+08:00",
+      "head": "c245f6fea9eba0f65e92f7be79eef2264b0ed406",
+      "head_date": "2026-11-14T11:11:02Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "8862a9d4dff8ecd4acf8d9c524b1d5a366288e34",
+          "url": "https://github.com/finos/morphir/blob/c245f6fea9eba0f65e92f7be79eef2264b0ed406/README.md",
+          "observed_at": "2026-11-15T00:31:48+08:00",
+          "sha256": "f46892008207c082c4a6e95ed7542aba77662ef351f632a72bb596928f3d5b13"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE",
+          "blob_sha": "8dada3edaf50dbc082c9a125058f25def75e625a",
+          "url": "https://github.com/finos/morphir/blob/c245f6fea9eba0f65e92f7be79eef2264b0ed406/LICENSE",
+          "observed_at": "2026-11-15T00:31:49+08:00",
+          "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "finos/FDC3",
+      "relationship": "community-standard",
+      "institution": "FINOS",
+      "categories": [
+        "institutions",
+        "corporate-banking",
+        "investment-banking"
+      ],
+      "use": "金融桌面上下文、intent 与应用互操作标准。",
+      "boundary": "规范、软件及相关商标/实现权利分开；不是任何银行专有终端代码。",
+      "url": "https://github.com/finos/FDC3",
+      "description": "An open standard for the financial desktop.",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "pushed_at": "2026-11-13T16:44:58Z",
+      "size_kb": 68193,
+      "license_signal": "NOASSERTION",
+      "requested_repository": "finos/FDC3",
+      "observed_at": "2026-11-15T00:31:50+08:00",
+      "head": "c6adda7a1f66d97d03809343852a4bfc0806f859",
+      "head_date": "2026-11-11T17:14:04Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "7cb167d7d8c2a87037c568d0a70b568f00070812",
+          "url": "https://github.com/finos/FDC3/blob/c6adda7a1f66d97d03809343852a4bfc0806f859/README.md",
+          "observed_at": "2026-11-15T00:31:52+08:00",
+          "sha256": "32a2684369811b7e7df6d17fdcdff403e02224b5ba1eb82aed4a97dfd4ec76ec"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE.md",
+          "blob_sha": "1ad0319cab673441dd40e9a756e8ee72b0ee3198",
+          "url": "https://github.com/finos/FDC3/blob/c6adda7a1f66d97d03809343852a4bfc0806f859/LICENSE.md",
+          "observed_at": "2026-11-15T00:31:53+08:00",
+          "sha256": "f40b1d00369c21b963293189b4617b5de439a11858541c07c620984634fb63b7"
+        }
+      ],
+      "license_class": "needs-license-review",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "finos/common-domain-model",
+      "relationship": "community-standard",
+      "institution": "FINOS",
+      "categories": [
+        "corporate-banking",
+        "investment-banking"
+      ],
+      "use": "金融产品、交易和生命周期事件的公共模型。",
+      "boundary": "是领域标准，不是定价器；规格文本与代码许可需逐项阅读。",
+      "url": "https://github.com/finos/common-domain-model",
+      "description": "The CDM is a model for financial products, trades in those products, and the lifecycle events of those trades. It is an open source standard that aligns data, systems and processes and is available as code in multiple languages for easy implementation across technologies.",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "master",
+      "pushed_at": "2026-11-13T15:30:15Z",
+      "size_kb": 153190,
+      "license_signal": "NOASSERTION",
+      "requested_repository": "finos/common-domain-model",
+      "observed_at": "2026-11-15T00:31:53+08:00",
+      "head": "25eb4ef91e5702d2e2d5a61e186e5b603f20293a",
+      "head_date": "2026-11-13T13:54:27Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "550d16a8341d6f5c9b949bf3a3ae8c58da97f88a",
+          "url": "https://github.com/finos/common-domain-model/blob/25eb4ef91e5702d2e2d5a61e186e5b603f20293a/README.md",
+          "observed_at": "2026-11-15T00:31:56+08:00",
+          "sha256": "0c4171490640c8f642eb82030ed1ccfce7624bd8b7a4fd48cff0d5050209da2a"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE.md",
+          "blob_sha": "98dd7dbca3ed56486660567b60bbe9b59c72bcba",
+          "url": "https://github.com/finos/common-domain-model/blob/25eb4ef91e5702d2e2d5a61e186e5b603f20293a/LICENSE.md",
+          "observed_at": "2026-11-15T00:31:57+08:00",
+          "sha256": "edbf99eb78c11a79ec3f4f669746877cbc9182e8c13699adff4369717c96de21"
+        }
+      ],
+      "license_class": "needs-license-review",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "perspective-dev/perspective",
+      "relationship": "independent-project",
+      "institution": "Perspective maintainers / JPMorgan origin",
+      "categories": [
+        "institutions",
+        "corporate-banking",
+        "investment-banking",
+        "private-equity",
+        "venture-capital"
+      ],
+      "use": "表格、流式数据、透视分析与可视化。",
+      "boundary": "使用当前规范仓库，旧 finos/perspective 会重定向；不代表 JPM 投资引擎。",
+      "url": "https://github.com/perspective-dev/perspective",
+      "description": "A data visualization and analytics component, especially well-suited for large and/or streaming datasets.",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "master",
+      "pushed_at": "2026-11-13T22:55:15Z",
+      "size_kb": 337220,
+      "license_signal": "Apache-2.0",
+      "requested_repository": "perspective-dev/perspective",
+      "observed_at": "2026-11-15T00:31:58+08:00",
+      "head": "56038acfb5be1ba29d2a325f5f70567a8fa3d290",
+      "head_date": "2026-11-13T22:55:12Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "aaddd1381592d56c605ee88f7408338cbc4740fc",
+          "url": "https://github.com/perspective-dev/perspective/blob/56038acfb5be1ba29d2a325f5f70567a8fa3d290/README.md",
+          "observed_at": "2026-11-15T00:32:00+08:00",
+          "sha256": "4d9aece391904f34f592e2bc821bb856e0ac8f1dfc13066fd64467da649685c1"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE.md",
+          "blob_sha": "1ffb266a1a85fcec1a520583683928a242366aaa",
+          "url": "https://github.com/perspective-dev/perspective/blob/56038acfb5be1ba29d2a325f5f70567a8fa3d290/LICENSE.md",
+          "observed_at": "2026-11-15T00:32:00+08:00",
+          "sha256": "4339a06f638aa50ed33dbca17b29d8f397b6072837724054726e8c94f9ffe23b"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "apache/fineract",
+      "relationship": "foundation-project",
+      "institution": "Apache Software Foundation",
+      "categories": [
+        "corporate-banking"
+      ],
+      "use": "贷款、账户和金融服务平台的公开实现参考。",
+      "boundary": "小微金融平台不等于大型银行对公核心；生产、监管和安全适配未评估。",
+      "url": "https://github.com/apache/fineract",
+      "description": "Apache Fineract",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "develop",
+      "pushed_at": "2026-11-13T11:31:28Z",
+      "size_kb": 133057,
+      "license_signal": "Apache-2.0",
+      "requested_repository": "apache/fineract",
+      "observed_at": "2026-11-15T00:32:01+08:00",
+      "head": "4ffa6cda5cc7538318941b67e0782a9794bd22ca",
+      "head_date": "2026-11-13T11:31:28Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "cac377026f023c98058b7393d38de9168afbc020",
+          "url": "https://github.com/apache/fineract/blob/4ffa6cda5cc7538318941b67e0782a9794bd22ca/README.md",
+          "observed_at": "2026-11-15T00:32:04+08:00",
+          "sha256": "6a0cf4f6d44de882e4ee31f7fb3128c1278a0ca352b2691f1f7834092332addf"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE_RELEASE",
+          "blob_sha": "191ed4dd900563a8848d1f472eb5a68b221fb324",
+          "url": "https://github.com/apache/fineract/blob/4ffa6cda5cc7538318941b67e0782a9794bd22ca/LICENSE_RELEASE",
+          "observed_at": "2026-11-15T00:32:05+08:00",
+          "sha256": "c86b4df35bc41bae3635d652e53432bb37ae8b8906349c40e2228bec9c95f165"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "moov-io/ach",
+      "relationship": "independent-project",
+      "institution": "Moov",
+      "categories": [
+        "corporate-banking"
+      ],
+      "use": "美国 ACH 文件的读取、生成与校验。",
+      "boundary": "格式库不提供清算会员资格、银行连接或付款授权。",
+      "url": "https://github.com/moov-io/ach",
+      "description": "ACH implements a reader, writer, and validator for Automated Clearing House (ACH) files. The HTTP server is available in a Docker image and the Go package is available.",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "master",
+      "pushed_at": "2026-11-14T04:30:55Z",
+      "size_kb": 68347,
+      "license_signal": "Apache-2.0",
+      "requested_repository": "moov-io/ach",
+      "observed_at": "2026-11-15T00:32:06+08:00",
+      "head": "103a158685b8ecaf5f5855826100c56e6024ff77",
+      "head_date": "2026-11-11T00:53:10Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "781ccc4049b636f97f6ede28fe0acf848d02e6ba",
+          "url": "https://github.com/moov-io/ach/blob/103a158685b8ecaf5f5855826100c56e6024ff77/README.md",
+          "observed_at": "2026-11-15T00:32:07+08:00",
+          "sha256": "9c844a51d153db0d7f2dca3e57d1c46643c84e0b8faec0933cc190864af5700e"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE",
+          "blob_sha": "1dd853549010a0438a89840a9ce64492ac2c3cd3",
+          "url": "https://github.com/moov-io/ach/blob/103a158685b8ecaf5f5855826100c56e6024ff77/LICENSE",
+          "observed_at": "2026-11-15T00:32:08+08:00",
+          "sha256": "3c96c0da3de9587c2062f25bc7efccba795f81dbf1b08dc71652c856e88b01a8"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "moov-io/wire",
+      "relationship": "independent-project",
+      "institution": "Moov",
+      "categories": [
+        "corporate-banking"
+      ],
+      "use": "历史 Fedwire FAIM 消息的读取、校验与迁移参考。",
+      "boundary": "已归档；README 说明 FAIM 不再用于实时 Fedwire，不能作为新接入推荐。wire20022 也已弃用，当前入口为 fedwire20022。",
+      "url": "https://github.com/moov-io/wire",
+      "description": "Legacy FAIM Fedwire Funds parser/writer (format deprecated July 2025; use moov-io/wire20022 for ISO 20022). HTTP server + Go library.",
+      "private": false,
+      "fork": false,
+      "archived": true,
+      "default_branch": "master",
+      "pushed_at": "2026-08-26T18:22:43Z",
+      "size_kb": 8545,
+      "license_signal": "Apache-2.0",
+      "requested_repository": "moov-io/wire",
+      "observed_at": "2026-11-15T00:32:10+08:00",
+      "head": "e35f00214a2713d7c7964da763136fa038aebc9b",
+      "head_date": "2026-08-26T18:22:42Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "e114858a8064a578e78c984a59963d38607a5f31",
+          "url": "https://github.com/moov-io/wire/blob/e35f00214a2713d7c7964da763136fa038aebc9b/README.md",
+          "observed_at": "2026-11-15T00:32:12+08:00",
+          "sha256": "9114cacda81399278b5340c42cf0219ab77f28f53438db6f83dabfa5234aaf17"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE",
+          "blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+          "url": "https://github.com/moov-io/wire/blob/e35f00214a2713d7c7964da763136fa038aebc9b/LICENSE",
+          "observed_at": "2026-11-15T00:32:13+08:00",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "moov-io/fedwire20022",
+      "relationship": "independent-project",
+      "institution": "Moov",
+      "categories": [
+        "corporate-banking"
+      ],
+      "use": "当前 Fedwire ISO20022 消息相关库；研究消息、校验与结算数据边界。",
+      "boundary": "代码不授予银行网络、会员、账户或实际付款权限；本轮未运行或验证生产适用性。",
+      "url": "https://github.com/moov-io/fedwire20022",
+      "description": "ISO 20022 Fedwire for banks in the united states",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "master",
+      "pushed_at": "2026-11-11T01:12:43Z",
+      "size_kb": 883,
+      "license_signal": "Apache-2.0",
+      "requested_repository": "moov-io/fedwire20022",
+      "observed_at": "2026-11-15T00:35:30+08:00",
+      "head": "45959569da757a776984dab00559981e67d7120a",
+      "head_date": "2026-11-10T19:15:52Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "7ac01ba3aa57d19ed908a46f55ea671cd94d0da1",
+          "url": "https://github.com/moov-io/fedwire20022/blob/45959569da757a776984dab00559981e67d7120a/README.md",
+          "observed_at": "2026-11-15T00:35:31+08:00",
+          "sha256": "0432a8bc3107f5b25611fb0302b3c72384e03086a73bcd9632f0b0bdb2e77ed7"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE",
+          "blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+          "url": "https://github.com/moov-io/fedwire20022/blob/45959569da757a776984dab00559981e67d7120a/LICENSE",
+          "observed_at": "2026-11-15T00:35:32+08:00",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "prowide/prowide-core",
+      "relationship": "independent-project",
+      "institution": "Prowide",
+      "categories": [
+        "corporate-banking",
+        "investment-banking"
+      ],
+      "use": "SWIFT MT 消息模型、解析和构造。",
+      "boundary": "库与 SWIFT 网络权限、标准文本权利和商用扩展不是同一件事。",
+      "url": "https://github.com/prowide/prowide-core",
+      "description": "Model and parsers for all SWIFT MT (FIN) messages",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "pushed_at": "2026-11-12T07:23:12Z",
+      "size_kb": 26732,
+      "license_signal": "Apache-2.0",
+      "requested_repository": "prowide/prowide-core",
+      "observed_at": "2026-11-15T00:32:14+08:00",
+      "head": "34514beab84c9f9fa134c9f9b0e05e340e38de87",
+      "head_date": "2026-10-14T17:45:13Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "a0b91bc42f61dc267a821677a86717b90291ac31",
+          "url": "https://github.com/prowide/prowide-core/blob/34514beab84c9f9fa134c9f9b0e05e340e38de87/README.md",
+          "observed_at": "2026-11-15T00:32:16+08:00",
+          "sha256": "9602e609acfbb245c809c5079f3f3a0fb81e824c0b19887637c7e631a0f46074"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE.txt",
+          "blob_sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+          "url": "https://github.com/prowide/prowide-core/blob/34514beab84c9f9fa134c9f9b0e05e340e38de87/LICENSE.txt",
+          "observed_at": "2026-11-15T00:32:17+08:00",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "JerBouma/FinanceToolkit",
+      "relationship": "independent-project",
+      "institution": "Independent community",
+      "categories": [
+        "corporate-banking",
+        "investment-banking",
+        "private-equity",
+        "venture-capital"
+      ],
+      "use": "财务比率、财报分析、估值和信用相关研究入口。",
+      "boundary": "既有导读保留；数据商权益、会计口径及银行专用指标必须另查。",
+      "url": "https://github.com/JerBouma/FinanceToolkit",
+      "description": "Transparent and Efficient Financial Analysis",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "pushed_at": "2026-11-14T16:31:25Z",
+      "size_kb": 323556,
+      "license_signal": "MIT",
+      "requested_repository": "JerBouma/FinanceToolkit",
+      "observed_at": "2026-11-15T00:32:18+08:00",
+      "head": "f7ca32720377b79c504e0e13942948a8465ced58",
+      "head_date": "2026-11-14T15:20:56Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "8b7de4791caac95b455310afae4e92467c4959a7",
+          "url": "https://github.com/JerBouma/FinanceToolkit/blob/f7ca32720377b79c504e0e13942948a8465ced58/README.md",
+          "observed_at": "2026-11-15T00:32:21+08:00",
+          "sha256": "fcc8bef6c6e0db6465d3b2a1d43cb2576de7d21fe686ec920c49520168141db6"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE.txt",
+          "blob_sha": "4cebddca23fc4b8af3c49a9e06c051184d451754",
+          "url": "https://github.com/JerBouma/FinanceToolkit/blob/f7ca32720377b79c504e0e13942948a8465ced58/LICENSE.txt",
+          "observed_at": "2026-11-15T00:32:22+08:00",
+          "sha256": "20f27d76a82699c1a5926ed41e8d1d8681ab3d554492559a9bfbd6f0d1ee2eef"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "numpy/numpy-financial",
+      "relationship": "independent-project",
+      "institution": "NumPy community",
+      "categories": [
+        "corporate-banking",
+        "investment-banking",
+        "private-equity",
+        "venture-capital"
+      ],
+      "use": "周期现金流 NPV、IRR、年金和资金时间价值。",
+      "boundary": "周期 IRR 不替代不规则日期 XIRR；多根与不存在解需要负对照。",
+      "url": "https://github.com/numpy/numpy-financial",
+      "description": "Standalone package of the NumPy financial functions",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "pushed_at": "2026-11-04T15:31:21Z",
+      "size_kb": 2699,
+      "license_signal": "BSD-3-Clause",
+      "requested_repository": "numpy/numpy-financial",
+      "observed_at": "2026-11-15T00:32:23+08:00",
+      "head": "031ed55d322b7aad57311b9d63b589c79df942a1",
+      "head_date": "2026-11-04T15:30:40Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "ef6b0ced90fc7d21804c7b162d1c47a1c06034a2",
+          "url": "https://github.com/numpy/numpy-financial/blob/031ed55d322b7aad57311b9d63b589c79df942a1/README.md",
+          "observed_at": "2026-11-15T00:32:25+08:00",
+          "sha256": "f58d7508faf597a163be5398b345a24ea3dba828e10de48394ad8826e58eceff"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE.txt",
+          "blob_sha": "5eae3201a70c2be97770d15f669c23ac861a3aca",
+          "url": "https://github.com/numpy/numpy-financial/blob/031ed55d322b7aad57311b9d63b589c79df942a1/LICENSE.txt",
+          "observed_at": "2026-11-15T00:32:26+08:00",
+          "sha256": "a2755eb34bddfc97dc39cbeebe352744d989c1e0f7fab7baacb9fc9a9ee3e1b4"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "dgunning/edgartools",
+      "relationship": "independent-project",
+      "institution": "Independent community",
+      "categories": [
+        "corporate-banking",
+        "investment-banking",
+        "private-equity"
+      ],
+      "use": "SEC 文件、公司信息和财报的研究接口。",
+      "boundary": "遵守 SEC 公平访问规则；保留发布时间和修订版本，不推断商业数据权限。",
+      "url": "https://github.com/dgunning/edgartools",
+      "description": "Read and analyze SEC EDGAR filings in Python. 10-K, 8-K, XBRL financials, Form 3/4/5, 13F, ADV — clean API, well-typed, MIT-licensed.",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "pushed_at": "2026-11-14T16:11:13Z",
+      "size_kb": 873263,
+      "license_signal": "MIT",
+      "requested_repository": "dgunning/edgartools",
+      "observed_at": "2026-11-15T00:32:26+08:00",
+      "head": "0592f3e9b4531c24191a012d60ee0e6b1f967fa2",
+      "head_date": "2026-11-14T16:11:11Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "9ff8099329df0e3004c679babd3cf307a89d49db",
+          "url": "https://github.com/dgunning/edgartools/blob/0592f3e9b4531c24191a012d60ee0e6b1f967fa2/README.md",
+          "observed_at": "2026-11-15T00:32:28+08:00",
+          "sha256": "3116dfa90a887a8826c3a125cad5132383de2a5b6f1605424a5f6802438d0a0f"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE.txt",
+          "blob_sha": "dc9079e0ebc14cc9432b5070a8a23267a399667e",
+          "url": "https://github.com/dgunning/edgartools/blob/0592f3e9b4531c24191a012d60ee0e6b1f967fa2/LICENSE.txt",
+          "observed_at": "2026-11-15T00:32:30+08:00",
+          "sha256": "249fb5021f07689c5fb17925c4d8bcd04fd9e2cee4b4b789499fb80b1e9dfe0c"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "Anexen/pyxirr",
+      "relationship": "independent-project",
+      "institution": "Independent community",
+      "categories": [
+        "investment-banking",
+        "private-equity",
+        "venture-capital"
+      ],
+      "use": "不规则日期收益率与 PE 绩效分析函数。",
+      "boundary": "核对现金流正负号、NAV、基准时间与多解；不是基金真实业绩数据。",
+      "url": "https://github.com/Anexen/pyxirr",
+      "description": "Rust-powered collection of financial functions.",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "pushed_at": "2025-11-03T22:03:02Z",
+      "size_kb": 888,
+      "license_signal": "Unlicense",
+      "requested_repository": "Anexen/pyxirr",
+      "observed_at": "2026-11-15T00:32:31+08:00",
+      "head": "5f31a85684051fb6badb542afba0ac1af5a68f9c",
+      "head_date": "2025-11-03T22:02:18Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "95c20f49d652a994bb275413f884725b152c1c5c",
+          "url": "https://github.com/Anexen/pyxirr/blob/5f31a85684051fb6badb542afba0ac1af5a68f9c/README.md",
+          "observed_at": "2026-11-15T00:32:32+08:00",
+          "sha256": "c4e869cfa11e6a559b9742c2c883d4c8beb9597765e6664b08cf6b6da87c4b8d"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE",
+          "blob_sha": "fdddb29aa445bf3d6a5d843d6dd77e10a9f99657",
+          "url": "https://github.com/Anexen/pyxirr/blob/5f31a85684051fb6badb542afba0ac1af5a68f9c/LICENSE",
+          "observed_at": "2026-11-15T00:32:33+08:00",
+          "sha256": "6b0382b16279f26ff69014300541967a356a666eb0b91b422f6862f6b7dad17e"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "EQTPartners/CompanyKG",
+      "relationship": "pe-firm-owned",
+      "institution": "EQT",
+      "categories": [
+        "private-equity",
+        "venture-capital"
+      ],
+      "use": "投资行业公司关系图、表示学习与评估研究。",
+      "boundary": "代码许可不自动覆盖每个外部数据包；不是 EQT 的完整筛选或投资决策引擎。",
+      "url": "https://github.com/EQTPartners/CompanyKG",
+      "description": "A Large-Scale Company Relation Graph for Investment Industry",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "pushed_at": "2024-06-10T09:09:17Z",
+      "size_kb": 474,
+      "license_signal": "MIT",
+      "requested_repository": "EQTPartners/CompanyKG",
+      "observed_at": "2026-11-15T00:32:34+08:00",
+      "head": "e9bf7855c23c0d515d300b2900b33b6155601a01",
+      "head_date": "2024-06-10T09:09:17Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "17e515e3585b02c6ccf65ed891c930bea3b40d53",
+          "url": "https://github.com/EQTPartners/CompanyKG/blob/e9bf7855c23c0d515d300b2900b33b6155601a01/README.md",
+          "observed_at": "2026-11-15T00:32:37+08:00",
+          "sha256": "d7cce38b9b0686ef4d4023e0b7b43749a637dabf5bfa3b733a103d760d3a2bf4"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE",
+          "blob_sha": "3f022178a5d48c71ea61116f08ffe6100859915f",
+          "url": "https://github.com/EQTPartners/CompanyKG/blob/e9bf7855c23c0d515d300b2900b33b6155601a01/LICENSE",
+          "observed_at": "2026-11-15T00:32:39+08:00",
+          "sha256": "0666c79ef53bbe748e3a3c1f77ea24bdad604b975c651965548961da79e4051f"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "Nachidoestech/lbo-model",
+      "relationship": "independent-learning",
+      "institution": "Independent educational example",
+      "categories": [
+        "investment-banking",
+        "private-equity"
+      ],
+      "use": "杠杆收购、债务偿还、退出倍数和 IRR/MOIC 的教学模型。",
+      "boundary": "非 PE 机构官方模型；财务闭环、费用和情景鲁棒性尚未运行验证。",
+      "url": "https://github.com/Nachidoestech/lbo-model",
+      "description": "Leveraged Buyout (LBO) model simulating a Private Equity acquisition — from entry pricing and debt financing through 5-year debt paydown to IRR/MoIC returns.",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "pushed_at": "2026-03-29T06:38:23Z",
+      "size_kb": 5,
+      "license_signal": "MIT",
+      "requested_repository": "Nachidoestech/lbo-model",
+      "observed_at": "2026-11-15T00:32:39+08:00",
+      "head": "8efc6b5472f97e5940ffc539b72a9a1f5670e4bf",
+      "head_date": "2026-03-29T06:38:23Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "06d95fc679d17597a892b43fd07cae969b2a0847",
+          "url": "https://github.com/Nachidoestech/lbo-model/blob/8efc6b5472f97e5940ffc539b72a9a1f5670e4bf/README.md",
+          "observed_at": "2026-11-15T00:32:41+08:00",
+          "sha256": "bee9c5700c11548e9d7ef1270d8e25e7ad6265db9bbc09e9c1b5f0d3039d5eb5"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE",
+          "blob_sha": "060d81ae7cc0542ada81298f68a11cb9aff47e71",
+          "url": "https://github.com/Nachidoestech/lbo-model/blob/8efc6b5472f97e5940ffc539b72a9a1f5670e4bf/LICENSE",
+          "observed_at": "2026-11-15T00:32:43+08:00",
+          "sha256": "1e3061c84161a577634e913afeee870b2c0b1460a991551b7ca7fd2c9af68db8"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "Open-Cap-Table-Coalition/Open-Cap-Format-OCF",
+      "relationship": "community-standard",
+      "institution": "Open Cap Table Coalition",
+      "categories": [
+        "private-equity",
+        "venture-capital"
+      ],
+      "use": "股权、持有人、期权及资本变动数据的公共格式。",
+      "boundary": "数据标准不产生股权法律效力；schema/文档与代码许可不同，不能一概当成 Apache/MIT。",
+      "license_note": "Schema and Documentation License1.0.1允许实现所需派生且要求通知/署名，但禁止将派生作为技术规范发布；Code Components 另按 Apache2.0。需读完整许可。",
+      "url": "https://github.com/Open-Cap-Table-Coalition/Open-Cap-Format-OCF",
+      "description": "Open Cap Format (OCF) - The Open Source Company Capitalization Data Standard. OCF can be used to structure and track the complex data structures necessary to build and maintain accurate capitalization (cap) tables.",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "pushed_at": "2026-10-26T12:05:39Z",
+      "size_kb": 9792,
+      "license_signal": "NOASSERTION",
+      "requested_repository": "Open-Cap-Table-Coalition/Open-Cap-Format-OCF",
+      "observed_at": "2026-11-15T00:32:43+08:00",
+      "head": "fd260852ebd3d3e1a3183f8c97ae3f645dc9f0d6",
+      "head_date": "2026-10-26T12:03:38Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "docs/README.md",
+          "blob_sha": "7db6c12f2409306041dd40548bb4f6994036e638",
+          "url": "https://github.com/Open-Cap-Table-Coalition/Open-Cap-Format-OCF/blob/fd260852ebd3d3e1a3183f8c97ae3f645dc9f0d6/docs/README.md",
+          "observed_at": "2026-11-15T00:32:45+08:00",
+          "sha256": "ac8fcc71d906fbb208c73ec2e29291556cee50739c7b038769453d2f035560f9"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE.md",
+          "blob_sha": "b494486efe6d6ccbc33cb7fba1f023e442b96183",
+          "url": "https://github.com/Open-Cap-Table-Coalition/Open-Cap-Format-OCF/blob/fd260852ebd3d3e1a3183f8c97ae3f645dc9f0d6/LICENSE.md",
+          "observed_at": "2026-11-15T00:32:46+08:00",
+          "sha256": "6ecb7d654e378ecf9e9c846986aa5ca68aed5dafe4bc93626484b5d017ab494e"
+        }
+      ],
+      "license_class": "needs-license-review",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "Open-Cap-Table-Coalition/ocx",
+      "relationship": "community-standard",
+      "institution": "Open Cap Table Coalition",
+      "categories": [
+        "private-equity",
+        "venture-capital"
+      ],
+      "use": "OCF 与标准化 Excel 之间的转换工具。",
+      "boundary": "转换不保证源股权数据正确，也不替代法律核对。",
+      "url": "https://github.com/Open-Cap-Table-Coalition/ocx",
+      "description": "Open Cap eXcel (OCX) - Convert Open Cap Format (OCF) packages into a standardized Excel format.",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "pushed_at": "2024-04-17T15:49:06Z",
+      "size_kb": 168,
+      "license_signal": "Apache-2.0",
+      "requested_repository": "Open-Cap-Table-Coalition/ocx",
+      "observed_at": "2026-11-15T00:32:47+08:00",
+      "head": "915bb38ecd012fa0dea2b68150cecc6b3bb8acca",
+      "head_date": "2023-06-28T17:00:18Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "2e9353c4619d47a15208d91f24fc34f4061d8bd6",
+          "url": "https://github.com/Open-Cap-Table-Coalition/ocx/blob/915bb38ecd012fa0dea2b68150cecc6b3bb8acca/README.md",
+          "observed_at": "2026-11-15T00:32:49+08:00",
+          "sha256": "c01607d2088638cd624afcd3003353b33b576cacdc7e0573e6df972fc06b9bd0"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE",
+          "blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+          "url": "https://github.com/Open-Cap-Table-Coalition/ocx/blob/915bb38ecd012fa0dea2b68150cecc6b3bb8acca/LICENSE",
+          "observed_at": "2026-11-15T00:32:50+08:00",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        }
+      ],
+      "license_class": "permissive-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "captableinc/captable",
+      "relationship": "independent-project",
+      "institution": "Captable community",
+      "categories": [
+        "private-equity",
+        "venture-capital"
+      ],
+      "use": "股权表、融资协作和相关工作流的自托管应用参考。",
+      "boundary": "AGPL 网络服务义务需要逐版审查；只使用合成股权数据，不能直接导入真实股东资料。",
+      "url": "https://github.com/captableinc/captable",
+      "description": "#1 Open-Source Captable, an alternative to Carta, Pully, Angelist and others.",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "pushed_at": "2025-06-04T07:53:09Z",
+      "size_kb": 13146,
+      "license_signal": "AGPL-3.0",
+      "requested_repository": "captableinc/captable",
+      "observed_at": "2026-11-15T00:32:51+08:00",
+      "head": "b63006f7bd998a2b4a95b277589e402a6726bd3a",
+      "head_date": "2024-09-19T04:46:26Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "8a4cdc093d77e360a0d05f298cf9f2f652a2c425",
+          "url": "https://github.com/captableinc/captable/blob/b63006f7bd998a2b4a95b277589e402a6726bd3a/README.md",
+          "observed_at": "2026-11-15T00:32:54+08:00",
+          "sha256": "e362b22ed2584f1dbaca4f29d6520e4e482ab52eb30a38b56a213af76ff66a63"
+        },
+        {
+          "kind": "LICENSE",
+          "path": "LICENSE",
+          "blob_sha": "0ad25db4bd1d86c452db3f9602ccdbe172438f52",
+          "url": "https://github.com/captableinc/captable/blob/b63006f7bd998a2b4a95b277589e402a6726bd3a/LICENSE",
+          "observed_at": "2026-11-15T00:32:54+08:00",
+          "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+        }
+      ],
+      "license_class": "reciprocal-signal-review-text",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "joelparkerhenderson/pitch-deck",
+      "relationship": "independent-learning",
+      "institution": "Independent educational reference",
+      "categories": [
+        "venture-capital"
+      ],
+      "use": "融资叙事、pitch deck 和问题清单参考。",
+      "boundary": "不是 VC 内部评分模型、募资成功证据或可自由复制所有外部引用的授权。",
+      "url": "https://github.com/joelparkerhenderson/pitch-deck",
+      "description": "Pitch deck advice for startup founders who want to raise venture capital investment",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "pushed_at": "2026-01-02T15:20:44Z",
+      "size_kb": 83,
+      "license_signal": null,
+      "requested_repository": "joelparkerhenderson/pitch-deck",
+      "observed_at": "2026-11-15T00:32:55+08:00",
+      "head": "d44db77068276781049da04b002053cdbdb70de8",
+      "head_date": "2026-01-02T15:20:29Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "4bf246e4e2dee00b1af5fdaf9c30c609857220a8",
+          "url": "https://github.com/joelparkerhenderson/pitch-deck/blob/d44db77068276781049da04b002053cdbdb70de8/README.md",
+          "observed_at": "2026-11-15T00:32:58+08:00",
+          "sha256": "f4a821b145c2f8712b2581ab13c29cde14d1a818c7b985977c6c306afd009536"
+        }
+      ],
+      "license_class": "needs-license-review",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    }
+  ],
+  "reference_only": [
+    {
+      "repository": "JimCortes/LBO_Model",
+      "reason": "Public LBO learning example; GitHub reported no detected license at discovery. Do not infer reuse permission.",
+      "url": "https://github.com/JimCortes/LBO_Model",
+      "description": "This is a simple leveraged buyout (LBO) model that includes sensitivity analysis using Python and Streamlit.",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "main",
+      "pushed_at": "2023-03-18T07:38:21Z",
+      "size_kb": 1926,
+      "license_signal": null,
+      "requested_repository": "JimCortes/LBO_Model",
+      "observed_at": "2026-11-15T00:32:59+08:00",
+      "head": "0c9d95077a4c913baee9edf7abbac11452308540",
+      "head_date": "2023-03-18T07:38:21Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "README.md",
+          "blob_sha": "57ea9850b626c1be3c4009a9ea2fa9daaa683bee",
+          "url": "https://github.com/JimCortes/LBO_Model/blob/0c9d95077a4c913baee9edf7abbac11452308540/README.md",
+          "observed_at": "2026-11-15T00:33:01+08:00",
+          "sha256": "4aee9645e9342a67e445c13e4c006b583cd733403e2614c88f11919efa9a8cd4"
+        }
+      ],
+      "license_class": "needs-license-review",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    },
+    {
+      "repository": "karlpolen/pme-calcs",
+      "reason": "Public PE performance calculation reference; no detected license at discovery. Prefer a separately licensed implementation until rights are clarified.",
+      "url": "https://github.com/karlpolen/pme-calcs",
+      "description": "methods for performance metrics for private equity investments",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "default_branch": "master",
+      "pushed_at": "2019-03-29T21:33:56Z",
+      "size_kb": 449,
+      "license_signal": null,
+      "requested_repository": "karlpolen/pme-calcs",
+      "observed_at": "2026-11-15T00:33:03+08:00",
+      "head": "4308ec2f554bcefe7f1b12f1b9828762a678ce0a",
+      "head_date": "2019-03-29T21:33:50Z",
+      "sources": [
+        {
+          "kind": "README",
+          "path": "readme.txt",
+          "blob_sha": "941a3ceabca17f625f3ad78a11ad4b0bdc73d9c1",
+          "url": "https://github.com/karlpolen/pme-calcs/blob/4308ec2f554bcefe7f1b12f1b9828762a678ce0a/readme.txt",
+          "observed_at": "2026-11-15T00:33:06+08:00",
+          "sha256": "9184676f01cf4fde9d1d68e36279e6f3bca8b1e884e59c1610dbddc8a4dbd5ce"
+        }
+      ],
+      "license_class": "needs-license-review",
+      "validation": "PUBLIC_SOURCE_REVIEW_NOT_EXECUTED"
+    }
+  ],
+  "inventory_only": [
+    {
+      "repository": "deutschebank/dbcore",
+      "reason": "Public API reports size0 and commits/master returns HTTP409 Git Repository is empty. Keep in the organization inventory, not the pinned implementation routes.",
+      "url": "https://github.com/deutschebank/dbcore",
+      "description": "dbCORE library",
+      "private": false,
+      "fork": false,
+      "archived": true,
+      "default_branch": "master",
+      "pushed_at": "2018-12-11T16:25:15Z",
+      "size_kb": 0,
+      "license_signal": null
+    }
+  ],
+  "resumed_cached_observations": true,
+  "completed_at": "2026-11-15T00:36:38+08:00"
+}

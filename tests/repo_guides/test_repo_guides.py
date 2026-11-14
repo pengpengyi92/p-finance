@@ -60,6 +60,14 @@ class RepoGuideTests(unittest.TestCase):
         )["sources"]
         institution_sources = {(r["repo"], r["sha"], r["path"]) for r in supplemental}
         self.assertEqual(len(institution_sources), len(supplemental))
+        banking = json.loads(
+            (REPO / "banking-capital/snapshot.json").read_text(encoding="utf-8")
+        )
+        banking_sources = {
+            (row["repository"], row["head"], source["path"])
+            for row in banking["repositories"] + banking["reference_only"]
+            for source in row["sources"]
+        }
         observed = set()
         count = 0
         for path in REPO.rglob("*.md"):
@@ -71,6 +79,8 @@ class RepoGuideTests(unittest.TestCase):
                 if path == REPO / "ficc-institutions.md":
                     self.assertIn((name, sha, filename), institution_sources, href)
                     observed.add((name, sha, filename))
+                elif (name, sha, unquote(filename)) in banking_sources:
+                    self.assertTrue(path.is_relative_to(REPO))
                 else:
                     self.assertIn(name, self.sources)
                     row = self.sources[name]

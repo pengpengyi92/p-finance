@@ -6,6 +6,11 @@ Open financial software and data tooling with license and provenance.
 
 ## Start here / 从这里开始
 
+- [Banking / IB / PE / VC](banking-capital/README.md)：四家指定银行143个公开非 fork
+  仓库的完整分页快照、45个精选项目与对公/投行/私募资本路线；许可不明与空仓库单独处理。
+  [调查报告](../report/2026-11-15-banking-private-capital-repositories.md) ·
+  [机构完整目录](banking-capital/institution-inventory.md)。本轮日期2026-11-15，原有下列卡片
+  保留2026-11-14的历史来源快照，不混成同一批验证。
 - [Corporate Finance](corporate-finance/README.md)：现金流 → NPV/IRR → WACC → PVGO / 增长 / 财报接口。
 - [FICC](ficc/README.md)：曲线 → 债券/衍生品 → 敏感度 → 组合风险 → 数据与服务权限。
 - [How to study a repo](HOW_TO_STUDY.md)：固定问题、源码入口、synthetic 小案例、证据记录和贡献边界。

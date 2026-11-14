@@ -1,5 +1,36 @@
 # Benchmark Card: Deep Funding
 
+## Banking and private-capital catalog - 2026-11-15
+
+**Baseline:** existing8 detailed company-finance/FICC cards and21 institution/Tencent sources,
+with overlapping repositories; neither is an all-bank or PE/VC catalog.
+
+**Change:** complete public non-fork pagination for four named bank organizations:143 entries,
+80 forks excluded.45 selected projects across5 multi-label routes,2 reference-only candidates,
+an empty-repository exclusion, primary-source pins, rights notes and an original report.
+
+**Measure:** fixed offline catalog contracts, exact canonical IDs, commit/file pins,
+timezone-aware observations, public-only inputs, rights/private/HTTP-error negative controls,
+cache time preservation, links and existing application regression commands.
+
+**Result:**21 guide tests pass (13 new +8 retained), plus132 existing unit/CLI tests,
+the schema/example/type/build checks and12 local browser regressions. The initial check
+stopped before type generation because a local optional workerd binary was missing;
+restored the exact locked tree with optional dependencies, without editing the lockfile.
+Catalog collection first stopped at empty dbcore rather than inventing a commit;
+the corrected route excludes it from implementations and preserves inventory metadata.
+
+**Trade-off:** four-organization completeness is not global financial-software completeness.
+Generic bank tooling is not desk business code.45 entries include5 archives and10 needing
+license-text review according to the API classifier; read explicit text/exception notes.
+Third-party model quality, runtime, data access, financial correctness, production security,
+economic impact and returns are **UNMEASURED / NOT_RUN**.
+The locked dependency audit reports10 findings (including2 critical); this catalog change
+does not resolve them or make a production-security claim.
+
+**Next Action:** choose one synthetic business exercise with an independent oracle and
+negative controls. Do not convert source collection into a production/financial-quality claim.
+
 ## Repo Guide - 2026-11-14
 
 **Baseline:** repo/ had the existing LLMQuant guide but no dedicated corporate-finance/FICC reading routes.
