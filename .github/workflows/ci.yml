@@ -17,6 +17,7 @@ jobs:
           python-version: "3.11"
           cache: pip
           cache-dependency-path: backend/requirements.txt
+      - run: python -m unittest discover -s tests/repo_guides -v
       - run: python -m pip install -r backend/requirements.txt
       - run: python scripts/build_knowledge.py --check
       - run: python -m pytest backend/tests -q

@@ -1,0 +1,19 @@
+{
+  "observed_date": "2026-11-14",
+  "timezone": "Asia/Shanghai",
+  "source_base": "f5f5b10ecf3fa05d3b9c28abe4530d926675094e",
+  "working_tree": "Additive documentation, collector, offline guide tests and one CI step; app code unchanged.",
+  "source_snapshot_sha256": "df188a5bf1ae5fe4488703305fe624d3e3cac0d77aca141a7c8c33071d0d633f",
+  "environment": {"os": "Windows", "python": "3.12.14", "node": "24.18.0"},
+  "checks": [
+    {"command": "python -m unittest discover -s tests/repo_guides -v", "attempt": "initial", "exit_code": 1, "passed": 6, "failed": 1, "cause": "HTTPS falsely detected as a drive path; corrected with a dedicated positive/negative detector regression."},
+    {"command": "python -m unittest discover -s tests/repo_guides -v", "attempt": "corrected", "exit_code": 0, "passed": 8, "failed": 0},
+    {"command": "npm run check", "exit_code": 0, "unit_cli_tests_passed": 132, "test_files": 8, "build": "PASS", "schema_examples_types": "PASS"},
+    {"command": "npm run test:e2e", "environment": {"CI": "true", "WRANGLER_SEND_METRICS": "false"}, "exit_code": 0, "passed": 12, "failed": 0, "scope": "Existing local app browser regressions with simulated D1; no production service."},
+    {"command": "git diff --check", "exit_code": 0}
+  ],
+  "not_run": ["third-party financial model executions", "cross-library numerical benchmark", "backend Python integration rerun", "production deployment"],
+  "unmeasured": ["learning gain", "investment utility", "financial model superiority"],
+  "remote_ci": "NOT OBSERVED at local acceptance; separate from local checks.",
+  "llmquant_guide_unchanged_git_blob": "dc76daa0c640ee060e33d246002a053d515f9383"
+}

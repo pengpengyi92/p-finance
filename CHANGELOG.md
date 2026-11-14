@@ -1,5 +1,15 @@
 # Changelog
 
+## Documentation - 2026-11-14
+
+- Add8 official-source Corporate Finance/FICC repository cards,2 reading routes
+  and a synthetic-study/evidence template under repo/.
+- Check source pins, license/data boundaries and current public contribution
+  states; preserve the existing LLMQuant guide and application version0.3.0.
+- Add8 offline catalog tests; existing132 unit/CLI tests and12 browser
+  regressions pass. No fresh third-party financial-model evaluation claimed.
+- [Observed delivery log](update/2026-11-14-finance-repo-guides.md).
+
 ## v0.3.0 - 2026-09-06
 
 ### Added

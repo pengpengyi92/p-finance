@@ -1,5 +1,13 @@
 # TODO
 
+## P0 - Corporate Finance / FICC repository guides (2026-11-14)
+
+- [x] Curate8 public repositories with official source pins, rights and learning routes.
+- [x] Independently read current public PR/Issue/Discussion states; distinguish acceptance.
+- [x] Validate8 catalog checks,132 existing unit/CLI tests,12 browser regressions and build; record limits.
+- [ ] Publish the additive documentation update and verify remote commit.
+- [ ] P1: Execute one synthetic NPV/WACC or PV/DV01 exercise as a separately measured project.
+
 ## P0 — Public research community
 
 - [x] Create dedicated Paper, Repo, Report, Website and Project Discussions; link them in README, AGENTS and the original navigator.

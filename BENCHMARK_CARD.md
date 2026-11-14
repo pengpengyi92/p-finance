@@ -1,5 +1,19 @@
 # Benchmark Card: Deep Funding
 
+## Repo Guide - 2026-11-14
+
+**Baseline:** repo/ had the existing LLMQuant guide but no dedicated corporate-finance/FICC reading routes.
+
+**Change:**8 evidence-linked repository cards,2 category routes and1 reproducibility guide; timestamped official metadata, source paths, license limits and contribution states. Existing application and LLMQuant guide preserved.
+
+**Measure:** catalog contract/link tests and scoped regression checks; actual receipts are recorded in update/2026-11-14-finance-repo-guides.md. Financial model executions, cross-library numeric equivalence, learning gain and investment utility: **UNMEASURED / NOT RUN** in this documentation task.
+
+**Result:**8 catalog tests,132 existing unit/CLI tests,12 local browser regressions and build PASS. Initial URL/privacy-regex false positive was fixed with a dedicated regression and retained in the log. Publication/remote CI tracked separately; no score or financial-model improvement claimed.
+
+**Trade-off:** focused8-repo selection, not an exhaustive ecosystem audit. Source pins age; API license classifiers can be incomplete. rateslib is source-available, not freely reusable open source. PR merging does not validate every model.
+
+**Next Action:** one synthetic cashflow or curve exercise with independent expected values, conventions and negative controls; obtain data/usage rights separately.
+
 ## V0.3 Persistence and Knowledge Baseline
 
 **Baseline:** V0.2's existing Worker/D1 sandbox and local RSI services remain unchanged.

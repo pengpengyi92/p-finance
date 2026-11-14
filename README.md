@@ -12,6 +12,11 @@ Humans and AI agents: start with [AGENTS.md](AGENTS.md), then use the [original 
 - [website](website/) · [Website Discussions](https://github.com/pengpengyi92/p-finance/discussions/categories/website): Public filings, regulators, official data and finance education.
 - [project](project/) · [Project Discussions](https://github.com/pengpengyi92/p-finance/discussions/categories/project): Runnable finance research and the existing Deep Funding sandbox.
 
+Research reading routes: [Corporate Finance repositories](repo/corporate-finance/README.md),
+[FICC / curves, pricing and risk](repo/ficc/README.md), and
+[how to study and reproduce a repo](repo/HOW_TO_STUDY.md). Public-source guides,
+not production endorsements; the existing Deep Funding application is unchanged.
+
 ## Deep Funding
 
 **Companies want the right capital. Capital wants the right company. Let their agents meet first.**
