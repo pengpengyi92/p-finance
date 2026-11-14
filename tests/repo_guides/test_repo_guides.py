@@ -55,6 +55,12 @@ class RepoGuideTests(unittest.TestCase):
                 self.assertTrue(target.exists(), (path, href))
 
     def test_pinned_source_links_match_captured_tree(self):
+        supplemental = json.loads(
+            (REPO / "institution_source_snapshot.json").read_text(encoding="utf-8")
+        )["sources"]
+        institution_sources = {(r["repo"], r["sha"], r["path"]) for r in supplemental}
+        self.assertEqual(len(institution_sources), len(supplemental))
+        observed = set()
         count = 0
         for path in REPO.rglob("*.md"):
             for href in LINK.findall(path.read_text(encoding="utf-8")):
@@ -62,11 +68,16 @@ class RepoGuideTests(unittest.TestCase):
                 if not m:
                     continue
                 name, sha, filename = m.groups()
-                self.assertIn(name, self.sources)
-                row = self.sources[name]
-                self.assertEqual(sha, row["head"])
-                self.assertIn(filename, row["source_paths"], href)
+                if path == REPO / "ficc-institutions.md":
+                    self.assertIn((name, sha, filename), institution_sources, href)
+                    observed.add((name, sha, filename))
+                else:
+                    self.assertIn(name, self.sources)
+                    row = self.sources[name]
+                    self.assertEqual(sha, row["head"])
+                    self.assertIn(filename, row["source_paths"], href)
                 count += 1
+        self.assertEqual(observed, institution_sources)
         self.assertGreaterEqual(count, 30)
 
     def test_contribution_types_and_statuses_are_not_pooled(self):
@@ -96,7 +107,12 @@ class RepoGuideTests(unittest.TestCase):
 
     def test_no_private_workstation_or_credential_material(self):
         patterns = (PRIVATE_DRIVE, r"github_pat_[A-Za-z0-9_]{30,}", r"gh[pousr]_[A-Za-z0-9]{30,}", r"file://")
-        files = [REPO / p for p in CARDS.values()] + [REPO / "README.md", REPO / "source_snapshot.json", REPO / "HOW_TO_STUDY.md"]
+        files = [REPO / p for p in CARDS.values()] + [
+            REPO / name for name in (
+                "README.md", "source_snapshot.json", "HOW_TO_STUDY.md",
+                "ficc-institutions.md", "institution_source_snapshot.json",
+            )
+        ]
         for path in files:
             text = path.read_text(encoding="utf-8")
             for pattern in patterns:

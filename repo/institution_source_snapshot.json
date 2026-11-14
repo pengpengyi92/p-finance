@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-11-14T15:31:38+08:00",
+  "scope": "GitHub public repository blob readback; separate from the original eight research cards.",
+  "sources": [
+    {
+      "repo": "goldmansachs/gs-quant",
+      "path": "gs_quant/timeseries/measures.py",
+      "sha": "8725ddf2ce4b925a7ce68ba90eca353455ac34b5"
+    },
+    {
+      "repo": "finos/common-domain-model",
+      "path": "README.md",
+      "sha": "25eb4ef91e5702d2e2d5a61e186e5b603f20293a"
+    },
+    {
+      "repo": "finos/FDC3",
+      "path": "README.md",
+      "sha": "c6adda7a1f66d97d03809343852a4bfc0806f859"
+    },
+    {
+      "repo": "finos/plexus-interop",
+      "path": "README.md",
+      "sha": "66ba7daa0781cc339abfed25717ecf9a3ccc43de"
+    },
+    {
+      "repo": "deutschebank/deutsche-bank-api-program",
+      "path": "README.md",
+      "sha": "4dc77909a1a6b4b04f6dd8966fa8154d2572459a"
+    },
+    {
+      "repo": "finos/waltz",
+      "path": "README.md",
+      "sha": "f0af61fe3b7ba79454983b56fd948cae4bb551b6"
+    },
+    {
+      "repo": "finos/legend",
+      "path": "README.md",
+      "sha": "db348ba4d4504e3d2e3047cb683397a5280fef0f"
+    },
+    {
+      "repo": "jpmorganchase/fusion",
+      "path": "README.md",
+      "sha": "a0d6e547f7adcaeeaddf7b96fdc0d0efe50a2491"
+    },
+    {
+      "repo": "XTXMarkets/ternfs",
+      "path": "README.md",
+      "sha": "55508913943969af77c9cfc1381010cfc47830b4"
+    },
+    {
+      "repo": "XTXMarkets/zstd",
+      "path": "README.md",
+      "sha": "fd035e54e312e5583300c0ef48fc522d13cffe97"
+    },
+    {
+      "repo": "janestreet/incremental",
+      "path": "README.org",
+      "sha": "371fc83a75dc691e135d36c6d3cf25aadcbf3acc"
+    },
+    {
+      "repo": "man-group/ArcticDB",
+      "path": "README.md",
+      "sha": "5c15e79c6e2796b082a65152a0cc9710b0b18150"
+    },
+    {
+      "repo": "man-group/arctic",
+      "path": "README.md",
+      "sha": "3cf2a9ce3a7f2c2544ececd20d0f4f5b917f7b2a"
+    },
+    {
+      "repo": "LMAX-Exchange/disruptor",
+      "path": "README.adoc",
+      "sha": "c871ca49826a6be7ada6957f6fbafcfecf7b1f87"
+    },
+    {
+      "repo": "domokane/FinancePy",
+      "path": "financepy/products/fx/fx_forward.py",
+      "sha": "0b0dc17ab3bcdaa0a21ae73b734f2641c9e5cf41"
+    },
+    {
+      "repo": "wechatpay-apiv3/wechatpay-global-skills",
+      "path": "wechatpay-global-payment/SKILL.md",
+      "sha": "48d576c2adb0cc01240c0f45635333382e375288"
+    },
+    {
+      "repo": "wechatpay-apiv3/wechatpay-skills",
+      "path": "wechatpay-payment-integration/SKILL.md",
+      "sha": "d951d0d36f9cac04fc462faf6d1e223f1eb0b5a0"
+    },
+    {
+      "repo": "wechatpay-apiv3/wechatpay-php",
+      "path": "README.md",
+      "sha": "3c9f5c2b71d181e9c244494f695cf5abb53cadc4"
+    },
+    {
+      "repo": "wechatpay-apiv3/wechatpay-go",
+      "path": "README.md",
+      "sha": "6dbd7ce2ec5967ac2de5fa053479b411967b9c29"
+    },
+    {
+      "repo": "wechatpay-apiv3/wechatpay-java",
+      "path": "README.md",
+      "sha": "1dab7bec717989e4a4f006d2469c3eebe9eabba7"
+    },
+    {
+      "repo": "wechatpay-apiv3/wechatpay-apache-httpclient",
+      "path": "README.md",
+      "sha": "d60ea25b3c1d60797cf544dbbc3655c07b2739a5"
+    }
+  ]
+}
