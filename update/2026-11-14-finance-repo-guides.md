@@ -88,3 +88,15 @@ permissions and dates, then run the guide tests before publishing.
 Next bounded research task: one synthetic cashflow/WACC or PV/DV01 comparison,
 with hand-calculated baseline, fixed conventions and negative controls, following
 [the study template](../repo/HOW_TO_STUDY.md). Do not treat this plan as completed.
+
+## Publication receipt
+
+Guide commit `643be42f9f9daac70e67448f66fa3a731a9e296c` was pushed to P-Finance
+main; authenticated Git ref readback matched exactly. Remote repo/ listing
+contains both category directories, the study guide, evidence JSON and the
+unchanged LLMQuant guide with the blob recorded above. This later receipt update
+does not change the financial application or claim a self-referential final SHA.
+
+At receipt time [GitHub CI](https://github.com/pengpengyi92/p-finance/actions/runs/43569985135)
+was **IN PROGRESS**, not yet a remote PASS. Local checks remain as separately
+recorded above. No deployment was requested or performed.

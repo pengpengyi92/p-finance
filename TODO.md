@@ -5,7 +5,7 @@
 - [x] Curate8 public repositories with official source pins, rights and learning routes.
 - [x] Independently read current public PR/Issue/Discussion states; distinguish acceptance.
 - [x] Validate8 catalog checks,132 existing unit/CLI tests,12 browser regressions and build; record limits.
-- [ ] Publish the additive documentation update and verify remote commit.
+- [x] Publish to main and read back commit `643be42`; original LLMQuant blob unchanged.
 - [ ] P1: Execute one synthetic NPV/WACC or PV/DV01 exercise as a separately measured project.
 
 ## P0 — Public research community
