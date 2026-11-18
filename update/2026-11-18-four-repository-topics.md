@@ -50,6 +50,8 @@ The renderer check and all 27 offline catalog tests passed, including both
 historical source ledgers. The application's existing `npm run check` passed
 (132 unit/CLI checks, schema/examples, type checking and build). The first browser
 run stopped during Wrangler's local test server startup, before running any cases.
+The retry passed all 12 Chromium cases using a local debug-log path and unchanged
+application configuration. No deployment was performed.
 
 Update the ledger first and rerender. Contributions go through the existing
 [Repo Discussions](https://github.com/pengpengyi92/p-finance/discussions/categories/repo)
