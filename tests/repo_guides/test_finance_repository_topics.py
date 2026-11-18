@@ -90,6 +90,37 @@ class FinanceTopicTests(unittest.TestCase):
             for nav in (ROOT / "repo/README.md", ROOT / "README.md", ROOT / "AGENTS.md"):
                 self.assertIn(page, nav.read_text(encoding="utf-8"))
 
+    def test_direct_discussions_are_distinct_and_navigable(self):
+        repo_index = (ROOT / "repo/README.md").read_text(encoding="utf-8")
+        numbers = []
+        for track, page in TOPICS.PAGES.items():
+            number = self.data["topics"][track]["discussion"]
+            numbers.append(number)
+            href = f"{TOPICS.FORUM}/{number}"
+            self.assertIn(f"]({href})", (ROOT / "repo" / page).read_text(encoding="utf-8"))
+            self.assertIn(f"]({href})", repo_index)
+        self.assertEqual(len(set(numbers)), len(TOPICS.PAGES))
+        bad = deepcopy(self.data)
+        bad["topics"]["CB"]["discussion"] = bad["topics"]["IB"]["discussion"]
+        with self.assertRaisesRegex(ValueError, "distinct public discussion"):
+            TOPICS.validate(bad)
+
+    def test_academic_paper_uses_formal_source_and_distinguishes_a_proposed_reproduction(self):
+        paper = (ROOT / "paper/README.md").read_text(encoding="utf-8")
+        academic = ROOT / "paper/academic"
+        index = (academic / "README.md").read_text(encoding="utf-8")
+        card = (academic / "alpha-gpt.md").read_text(encoding="utf-8")
+        for document in (paper, index, card):
+            self.assertIn(f"]({TOPICS.FORUM}/15)", document)
+        self.assertIn("academic/README.md", paper)
+        self.assertIn("(alpha-gpt.md)", index)
+        self.assertIn("https://aclanthology.org/2025.emnlp-demos.14/", card)
+        self.assertIn("https://doi.org/10.18653/v1/2025.emnlp-demos.14", card)
+        self.assertIn("https://arxiv.org/abs/2308.00016", card)
+        self.assertIn("System Demonstrations", card)
+        self.assertIn("NOT_RUN", card)
+        self.assertFalse(list(academic.glob("*.pdf")))
+
 
 if __name__ == "__main__":
     unittest.main()

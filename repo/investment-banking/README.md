@@ -4,7 +4,7 @@
 
 把财报数据与模型工程分开，覆盖公司估值、并购/LBO、股权与债务资本市场，以及明确标注的周边工程。资本市场系统不会被描述成投行内部并购工具。
 
-[Repo 总目录](../README.md) · [公开来源账本](../finance-topics.json) · [Repo Discussions](https://github.com/pengpengyi92/p-finance/discussions/categories/repo)
+[Repo 总目录](../README.md) · [公开来源账本](../finance-topics.json) · [本专题讨论 #12](https://github.com/pengpengyi92/p-finance/discussions/12) · [Repo Discussions](https://github.com/pengpengyi92/p-finance/discussions/categories/repo)
 
 这是当前已核验候选的收录，不是全球全集或生产背书。同一仓库也可能出现在 Corporate Banking, FICC, Asset Custody；每页写的是该用途。
 
@@ -86,4 +86,4 @@
 
 许可列为 GitHub 分类线索，不是法律判断。代码、规范、数据、商业 API 及账户资格各自独立。不因所有者是金融机构就推断某个业务部门使用或维护该仓库。未执行第三方代码或验证金融正确性、性能、安全或生产适用性：**NOT_RUN / UNMEASURED**。
 
-欢迎通过 Repo Discussions 或 PR 补充。请提交规范仓库 URL、领域用途、来源和权利限制；跨专题时为每个专题分别写一条具体用途，不用复制整个表。只使用公开、可授权或合成的材料。
+欢迎在 [本专题讨论](https://github.com/pengpengyi92/p-finance/discussions/12) 推荐仓库、分享使用经验或复现，也可提交 PR。请提供规范仓库 URL、领域用途、来源和权利限制；跨专题时为每个专题分别写一条具体用途，不用复制整个表。只使用公开、可授权或合成的材料。

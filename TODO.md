@@ -1,5 +1,11 @@
 # TODO
 
+## P0 — Topic discussions and Academic Papers (2026-11-18)
+
+- [x] Check existing threads; link four topic discussions and keep the original general invitation.
+- [x] Open the academic recommendation route and catalog Alpha-GPT with its formal DOI and finance scope.
+- [ ] P1: Review submitted repos and papers for source provenance and reproducibility; label experiments `NOT_RUN` until actually measured.
+
 ## P0 — Four finance repository topics (2026-11-18)
 
 - [x] Publish four self-contained routes generated from a versioned public ledger.

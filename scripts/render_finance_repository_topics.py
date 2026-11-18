@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 LEDGER = ROOT / "repo" / "finance-topics.json"
 REPO = re.compile(r"[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+")
 SHA = re.compile(r"[a-f0-9]{40}")
+FORUM = "https://github.com/pengpengyi92/p-finance/discussions"
 PAGES = {
     "CB": "corporate-banking/README.md",
     "IB": "investment-banking/README.md",
@@ -41,6 +42,9 @@ def validate(data):
     plans = data["topics"]
     if {track: plan["page"] for track, plan in plans.items()} != PAGES:
         raise ValueError("Expected exactly four finance topics")
+    discussion_numbers = [plan.get("discussion") for plan in plans.values()]
+    if any(type(number) is not int or number < 1 for number in discussion_numbers) or len(set(discussion_numbers)) != len(PAGES):
+        raise ValueError("Each topic requires a distinct public discussion number")
     for row in data["repositories"]:
         full = row["repo"]
         if not REPO.fullmatch(full) or full.casefold() in names or not SHA.fullmatch(row["head"]):
@@ -82,7 +86,8 @@ def render_topic(data, track):
         plan["intro"],
         "",
         "[Repo 总目录](../README.md) · [公开来源账本](../finance-topics.json) · "
-        "[Repo Discussions](https://github.com/pengpengyi92/p-finance/discussions/categories/repo)",
+        f"[本专题讨论 #{plan['discussion']}]({FORUM}/{plan['discussion']}) · "
+        f"[Repo Discussions]({FORUM}/categories/repo)",
         "",
         "这是当前已核验候选的收录，不是全球全集或生产背书。"
         f"同一仓库也可能出现在 {scope}；每页写的是该用途。",
@@ -120,7 +125,8 @@ def render_topic(data, track):
         "许可列为 GitHub 分类线索，不是法律判断。代码、规范、数据、商业 API 及账户资格各自独立。"
         "不因所有者是金融机构就推断某个业务部门使用或维护该仓库。未执行第三方代码或验证金融正确性、性能、安全或生产适用性：**NOT_RUN / UNMEASURED**。",
         "",
-        "欢迎通过 Repo Discussions 或 PR 补充。请提交规范仓库 URL、领域用途、来源和权利限制；"
+        f"欢迎在 [本专题讨论]({FORUM}/{plan['discussion']}) 推荐仓库、分享使用经验或复现，也可提交 PR。"
+        "请提供规范仓库 URL、领域用途、来源和权利限制；"
         "跨专题时为每个专题分别写一条具体用途，不用复制整个表。只使用公开、可授权或合成的材料。",
         "",
     ]

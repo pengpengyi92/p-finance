@@ -6,6 +6,7 @@
     "CB": {
       "title": "Corporate Banking / 对公银行",
       "page": "corporate-banking/README.md",
+      "discussion": 11,
       "intro": "沿企业客户的资金需求组织：授信与生命周期、贸易融资、现金管理、支付与清算。企业现金管理的主账、银行核心、通道 SDK 和报文规范不是一件事。",
       "lanes": {
         "credit": "公司授信与核心账务",
@@ -23,6 +24,7 @@
     "IB": {
       "title": "Investment Banking / 投资银行",
       "page": "investment-banking/README.md",
+      "discussion": 12,
       "intro": "把财报数据与模型工程分开，覆盖公司估值、并购/LBO、股权与债务资本市场，以及明确标注的周边工程。资本市场系统不会被描述成投行内部并购工具。",
       "lanes": {
         "filings": "财报、监管申报与输入治理",
@@ -39,6 +41,7 @@
     "FICC": {
       "title": "FICC / 固定收益、外汇与商品",
       "page": "ficc/catalog.md",
+      "discussion": 13,
       "intro": "覆盖主权和信用债、利率曲线、债券期货和回购、FX、商品、市场数据与组合风险。区分纯定价、生命周期、数据访问和通用交易工程。",
       "lanes": {
         "rates": "利率、债券、信用、FX 与组合定价",
@@ -55,6 +58,7 @@
     "AC": {
       "title": "Asset Custody / 资产托管与证券服务",
       "page": "asset-custody/README.md",
+      "discussion": 14,
       "intro": "传统证券托管的核心是持有记录、证券及现金对账、交收与公司行动。本专题把其消息和运营工具与数字资产/代币化原型分列，不把钱包、节点、交易 SDK 或合约称为银行托管平台。",
       "lanes": {
         "messages": "传统托管：证券报文、标识和交收接口参考",

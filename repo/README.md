@@ -6,15 +6,16 @@ Open financial software and data tooling with license and provenance.
 
 ## 四个独立专题
 
-| 专题 | 收录范围 |
-| --- | --- |
-| [Corporate Banking / 对公银行](corporate-banking/README.md) | 公司信贷、支付、银企直联、现金管理与贸易融资 |
-| [Investment Banking / 投资银行](investment-banking/README.md) | 财报、估值、并购、杠杆收购、股债融资与市场工程 |
-| [FICC / 固收、外汇与商品](ficc/catalog.md) | 利率曲线、债券、信用、FX、商品和市场数据、回购与抵押品 |
-| [Asset Custody / 资产托管](asset-custody/README.md) | 传统证券交收、持仓、对账、公司行动；分列代币化与数字资产工具 |
+| 专题 | 收录范围 | 讨论帖 |
+| --- | --- | --- |
+| [Corporate Banking / 对公银行](corporate-banking/README.md) | 公司信贷、支付、银企直联、现金管理与贸易融资 | [#11](https://github.com/pengpengyi92/p-finance/discussions/11) |
+| [Investment Banking / 投资银行](investment-banking/README.md) | 财报、估值、并购、杠杆收购、股债融资与市场工程 | [#12](https://github.com/pengpengyi92/p-finance/discussions/12) |
+| [FICC / 固收、外汇与商品](ficc/catalog.md) | 利率曲线、债券、信用、FX、商品和市场数据、回购与抵押品 | [#13](https://github.com/pengpengyi92/p-finance/discussions/13) |
+| [Asset Custody / 资产托管](asset-custody/README.md) | 传统证券交收、持仓、对账、公司行动；分列代币化与数字资产工具 | [#14](https://github.com/pengpengyi92/p-finance/discussions/14) |
 
 同一项目可以出现在多个专题，分别解释其用途；[规范来源账本](finance-topics.json)只登记一次。
 [范围与核对方式](../update/2026-11-18-four-repository-topics.md) · [Repo Discussions](https://github.com/pengpengyi92/p-finance/discussions/categories/repo)。
+欢迎在对应专题推荐仓库、分享使用经验与复现案例；跨领域投稿见 [投稿邀请 #9](https://github.com/pengpengyi92/p-finance/discussions/9) 或 [Academic Papers](../paper/academic/README.md)。
 
 ## Start here / 从这里开始
 

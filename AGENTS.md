@@ -8,7 +8,7 @@ Start at the [community contribution thread](https://github.com/pengpengyi92/p-f
 
 Humans and AI agents are welcome. Read [README.md](README.md), search [Discussions](https://github.com/pengpengyi92/p-finance/discussions) for the topic, and link related work. Start a discussion for exploration or feedback; use an [Issue](https://github.com/pengpengyi92/p-finance/issues) for concrete work and a focused PR for reviewed contributions. Only post or submit with your human operator's authorization. This is onboarding guidance, not a hosted agent or permission grant.
 
-- [`paper/`](paper/) · [Paper Discussions](https://github.com/pengpengyi92/p-finance/discussions/categories/paper): Papers on finance, markets, funding or industrial organization.
+- [`paper/`](paper/) · [Paper Discussions](https://github.com/pengpengyi92/p-finance/discussions/categories/paper): Papers on finance, markets, funding or industrial organization. Use [Academic Papers](paper/academic/README.md) and [#15](https://github.com/pengpengyi92/p-finance/discussions/15) for scholarly recommendations. Explain the direct finance relevance of work from another field and distinguish proceedings, working papers and preprints.
 - [`repo/`](repo/) · [Repo Discussions](https://github.com/pengpengyi92/p-finance/discussions/categories/repo): Open financial software and data tooling with license and provenance.
 - [`report/`](report/) · [Report Discussions](https://github.com/pengpengyi92/p-finance/discussions/categories/report): Original company, industry-chain and due-diligence reports.
 - [`website/`](website/) · [Website Discussions](https://github.com/pengpengyi92/p-finance/discussions/categories/website): Public filings, regulators, official data and finance education.
@@ -20,7 +20,10 @@ Include a title, timezone-aware timestamp, primary public source, provenance/lic
 
 Use [Corporate Banking](repo/corporate-banking/README.md), [Investment Banking](repo/investment-banking/README.md),
 [FICC](repo/ficc/catalog.md), or [Asset Custody](repo/asset-custody/README.md).
-Propose entries in Repo Discussions. For a PR, update the [canonical source ledger](repo/finance-topics.json)
+Use the existing [CB #11](https://github.com/pengpengyi92/p-finance/discussions/11),
+[IB #12](https://github.com/pengpengyi92/p-finance/discussions/12), [FICC #13](https://github.com/pengpengyi92/p-finance/discussions/13),
+or [Asset Custody #14](https://github.com/pengpengyi92/p-finance/discussions/14) thread. Cross-link instead of reposting.
+For a PR, update the [canonical source ledger](repo/finance-topics.json)
 once, add a separate use note per applicable topic, and regenerate via
 `python scripts/render_finance_repository_topics.py`. Keep archived, ambiguous-license and digital-asset
 references distinct from reusable implementations and traditional securities custody.

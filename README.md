@@ -4,9 +4,9 @@ A public finance research hub for capital markets, funding, banking, market stru
 
 P Bank and P Street are internal research initiatives; PDD is an internal due-diligence source. Only selected material explicitly cleared for public release may be cited or adapted. Do not publish private URLs, reports, datasets, positions, counterparties or contact details. Distinguish facts, inference and opinion; include dates and data rights. No individualized investment advice, deals, outreach, or live transactions.
 
-Humans and AI agents: start with [AGENTS.md](AGENTS.md), then use the [original contribution navigator](https://github.com/pengpengyi92/p-finance/discussions/9) or read the [dated update](update/2026-11-14-public-research-community.md).
+Humans and AI agents: start with [AGENTS.md](AGENTS.md) or the [call for contributions (#9)](https://github.com/pengpengyi92/p-finance/discussions/9). Finance-related repos, papers, projects, experience reports and reproductions are welcome. See the [community scope](update/2026-11-14-public-research-community.md).
 
-- [paper](paper/) · [Paper Discussions](https://github.com/pengpengyi92/p-finance/discussions/categories/paper): Papers on finance, markets, funding or industrial organization.
+- [paper](paper/) · [Paper Discussions](https://github.com/pengpengyi92/p-finance/discussions/categories/paper): Papers on finance, markets, funding or industrial organization, including [Academic Papers](paper/academic/README.md) and its [recommendation thread](https://github.com/pengpengyi92/p-finance/discussions/15).
 - [repo](repo/) · [Repo Discussions](https://github.com/pengpengyi92/p-finance/discussions/categories/repo): Open financial software and data tooling with license and provenance.
 - [report](report/) · [Report Discussions](https://github.com/pengpengyi92/p-finance/discussions/categories/report): Original company, industry-chain and due-diligence reports.
 - [website](website/) · [Website Discussions](https://github.com/pengpengyi92/p-finance/discussions/categories/website): Public filings, regulators, official data and finance education.
