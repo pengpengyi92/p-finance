@@ -1,5 +1,11 @@
 # TODO
 
+## P0 — Four finance repository topics (2026-11-18)
+
+- [x] Publish four self-contained routes generated from a versioned public ledger.
+- [x] Preserve prior historical routes and distinguish duplicates, restricted rights, and archival references.
+- [ ] P1: Reproduce one synthetic exercise per topic with an independent expected result; record version, data rights and limitations.
+
 ## P0 - Banking / IB / PE / VC repository map (2026-11-15)
 
 - [x] Enumerate all public non-forks in four named bank organizations; retain exact scope.

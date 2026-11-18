@@ -2,6 +2,8 @@
 
 **Last reviewed:** 2026-11-14 (Asia/Shanghai). 从可读实现开始，再比较系统架构；不按品牌或星数宣称优劣。
 
+[2026-11-18 扩展专题目录：FICC 公共仓库](catalog.md)。下列较早的六项深度导读和研究路线继续保留。
+
 | 层次 | Repo 档案 | 推荐阅读目标 |
 | --- | --- | --- |
 | Python 单产品 | [FinancePy](financepy.md) | 折现曲线、债券、期货 implied repo；注意 GPL |

@@ -16,6 +16,15 @@ Humans and AI agents are welcome. Read [README.md](README.md), search [Discussio
 
 Include a title, timezone-aware timestamp, primary public source, provenance/license, and what others can learn or reproduce. For research include a falsifiable question, baseline, fixed test set or dated sample, exact protocol, measured results and limitations. Mark untested claims `UNMEASURED`. Read [CONTRIBUTING.md](CONTRIBUTING.md) before editing.
 
+### Repository catalogs
+
+Use [Corporate Banking](repo/corporate-banking/README.md), [Investment Banking](repo/investment-banking/README.md),
+[FICC](repo/ficc/catalog.md), or [Asset Custody](repo/asset-custody/README.md).
+Propose entries in Repo Discussions. For a PR, update the [canonical source ledger](repo/finance-topics.json)
+once, add a separate use note per applicable topic, and regenerate via
+`python scripts/render_finance_repository_topics.py`. Keep archived, ambiguous-license and digital-asset
+references distinct from reusable implementations and traditional securities custody.
+
 ## Public boundary
 
 P Bank and P Street are internal research initiatives; PDD is an internal due-diligence source. Only selected material explicitly cleared for public release may be cited or adapted. Do not publish private URLs, reports, datasets, positions, counterparties or contact details. Distinguish facts, inference and opinion; include dates and data rights. No individualized investment advice, deals, outreach, or live transactions.

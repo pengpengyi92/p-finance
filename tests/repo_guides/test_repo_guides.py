@@ -68,6 +68,15 @@ class RepoGuideTests(unittest.TestCase):
             for row in banking["repositories"] + banking["reference_only"]
             for source in row["sources"]
         }
+        finance = json.loads((REPO / "finance-topics.json").read_text(encoding="utf-8"))
+        finance_sources = {
+            (row["repo"], row["head"], row[key])
+            for row in finance["repositories"]
+            for key in ("readme", "license_file")
+            if row[key]
+        }
+        finance_pages = {REPO / plan["page"] for plan in finance["topics"].values()}
+        finance_observed = set()
         observed = set()
         count = 0
         for path in REPO.rglob("*.md"):
@@ -79,6 +88,10 @@ class RepoGuideTests(unittest.TestCase):
                 if path == REPO / "ficc-institutions.md":
                     self.assertIn((name, sha, filename), institution_sources, href)
                     observed.add((name, sha, filename))
+                elif path in finance_pages:
+                    pin = (name, sha, unquote(filename))
+                    self.assertIn(pin, finance_sources, href)
+                    finance_observed.add(pin)
                 elif (name, sha, unquote(filename)) in banking_sources:
                     self.assertTrue(path.is_relative_to(REPO))
                 else:
@@ -88,6 +101,7 @@ class RepoGuideTests(unittest.TestCase):
                     self.assertIn(filename, row["source_paths"], href)
                 count += 1
         self.assertEqual(observed, institution_sources)
+        self.assertEqual(finance_observed, finance_sources)
         self.assertGreaterEqual(count, 30)
 
     def test_contribution_types_and_statuses_are_not_pooled(self):
@@ -120,7 +134,9 @@ class RepoGuideTests(unittest.TestCase):
         files = [REPO / p for p in CARDS.values()] + [
             REPO / name for name in (
                 "README.md", "source_snapshot.json", "HOW_TO_STUDY.md",
-                "ficc-institutions.md", "institution_source_snapshot.json",
+                "ficc-institutions.md", "institution_source_snapshot.json", "finance-topics.json",
+                "corporate-banking/README.md", "investment-banking/README.md",
+                "ficc/catalog.md", "asset-custody/README.md",
             )
         ]
         for path in files:

@@ -1,5 +1,20 @@
 # Benchmark Card: Deep Funding
 
+## Four finance repository topics — 2026-11-18
+
+**Baseline → Change:** company-finance/FICC guides plus a combined bank/capital map;
+add distinct CB, IB, FICC and custody catalogs using one version-pinned public ledger.
+
+**Measure → Result:** verify canonical IDs, source pins, navigation, rights labels,
+legacy CB/IB coverage and cross-topic row parity; ledger records 137 distinct public
+repositories across 184 placements, with 36 appearing in more than one topic.
+See the [dated verification and scope](update/2026-11-18-four-repository-topics.md).
+
+**Trade-off → Next Action:** broad source discovery is not global coverage, legal
+clearance or model validation. Model accuracy, performance, security, and production
+or investment outcomes: **UNMEASURED / NOT_RUN**. Reproduce cash-reconciliation,
+valuation, curve and securities-settlement exercises with synthetic data and independent oracles.
+
 ## Banking and private-capital catalog - 2026-11-15
 
 **Baseline:** existing8 detailed company-finance/FICC cards and21 institution/Tencent sources,

@@ -12,7 +12,12 @@ Humans and AI agents: start with [AGENTS.md](AGENTS.md), then use the [original 
 - [website](website/) · [Website Discussions](https://github.com/pengpengyi92/p-finance/discussions/categories/website): Public filings, regulators, official data and finance education.
 - [project](project/) · [Project Discussions](https://github.com/pengpengyi92/p-finance/discussions/categories/project): Runnable finance research and the existing Deep Funding sandbox.
 
-New: [Banking / IB / PE / VC repository map](repo/banking-capital/README.md) and
+Four repository topics: [Corporate Banking](repo/corporate-banking/README.md) ·
+[Investment Banking](repo/investment-banking/README.md) · [FICC](repo/ficc/catalog.md) ·
+[Asset Custody](repo/asset-custody/README.md). Cross-listed projects have a different use note
+for each topic. See the [dated catalog update](update/2026-11-18-four-repository-topics.md).
+
+Earlier: [Banking / IB / PE / VC repository map](repo/banking-capital/README.md) and
 [dated investigation report](report/2026-11-15-banking-private-capital-repositories.md).
 Four named bank organizations:143 public non-forks;45 selected cross-ecosystem guides,
 with pinned sources, license/state boundaries and separate reference-only candidates.

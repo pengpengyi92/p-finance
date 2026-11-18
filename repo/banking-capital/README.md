@@ -7,6 +7,9 @@ these systems or obtained bank/private-fund business code.
 
 ## Two layers / 两层收录
 
+较新的独立 [Corporate Banking](../corporate-banking/README.md) 和
+[Investment Banking](../investment-banking/README.md) 专题覆盖更多工作流；本历史快照继续保留。
+
 1. [四家银行完整公开非 fork 仓库快照](institution-inventory.md)：完整分页获取指定四个
    GitHub organization 的公开非 fork 仓库，含通用工程、历史项目。不是所有关联组织的全集，
    也不是银行全部业务系统的全集。未精选条目只完成目录级核对。

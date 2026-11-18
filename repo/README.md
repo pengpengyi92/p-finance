@@ -2,7 +2,19 @@
 
 Open financial software and data tooling with license and provenance.
 
-**Last reviewed:** 2026-11-14 (Asia/Shanghai). 首批精选公司金融/FICC 指引，基于我们实际研究或参与过公开贡献的项目，不是全量库清单或质量排名。
+**Latest catalog:** 2026-11-18 (Asia/Shanghai). 四个公开仓库专题按业务用途组织；下方早期报告和原始来源快照继续保留。
+
+## 四个独立专题
+
+| 专题 | 收录范围 |
+| --- | --- |
+| [Corporate Banking / 对公银行](corporate-banking/README.md) | 公司信贷、支付、银企直联、现金管理与贸易融资 |
+| [Investment Banking / 投资银行](investment-banking/README.md) | 财报、估值、并购、杠杆收购、股债融资与市场工程 |
+| [FICC / 固收、外汇与商品](ficc/catalog.md) | 利率曲线、债券、信用、FX、商品和市场数据、回购与抵押品 |
+| [Asset Custody / 资产托管](asset-custody/README.md) | 传统证券交收、持仓、对账、公司行动；分列代币化与数字资产工具 |
+
+同一项目可以出现在多个专题，分别解释其用途；[规范来源账本](finance-topics.json)只登记一次。
+[范围与核对方式](../update/2026-11-18-four-repository-topics.md) · [Repo Discussions](https://github.com/pengpengyi92/p-finance/discussions/categories/repo)。
 
 ## Start here / 从这里开始
 
