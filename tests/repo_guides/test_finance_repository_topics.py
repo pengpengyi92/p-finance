@@ -61,7 +61,8 @@ class FinanceTopicTests(unittest.TestCase):
         self.assertEqual(set(fig), {"CB", "AC"})
         self.assertIn("现金", fig["CB"]["use"])
         self.assertIn("交收", fig["AC"]["use"])
-        self.assertEqual(set(self.rows["finos/common-domain-model"]["topics"]), set(TOPICS.PAGES))
+        self.assertEqual(set(self.rows["finos/common-domain-model"]["topics"]),
+                         set(TOPICS.ORIGINAL_PAGES) | {"SEC", "EX"})
         self.assertNotIn("domokane/financepy", self.rows)
         self.assertIn("financepy-org/financepy", self.rows)
 
@@ -87,23 +88,64 @@ class FinanceTopicTests(unittest.TestCase):
                     target = (path.parent / unquote(href.split("#", 1)[0])).resolve()
                     self.assertTrue(target.is_relative_to(ROOT), href)
                     self.assertTrue(target.exists(), (page, href))
-            for nav in (ROOT / "repo/README.md", ROOT / "README.md", ROOT / "AGENTS.md"):
+            navigators = ((ROOT / "repo/README.md", ROOT / "README.md", ROOT / "AGENTS.md")
+                          if track in TOPICS.ORIGINAL_PAGES else (ROOT / "repo" / TOPICS.MARKET_MAP,))
+            for nav in navigators:
                 self.assertIn(page, nav.read_text(encoding="utf-8"))
 
     def test_direct_discussions_are_distinct_and_navigable(self):
         repo_index = (ROOT / "repo/README.md").read_text(encoding="utf-8")
         numbers = []
-        for track, page in TOPICS.PAGES.items():
+        for track, page in TOPICS.ORIGINAL_PAGES.items():
             number = self.data["topics"][track]["discussion"]
             numbers.append(number)
             href = f"{TOPICS.FORUM}/{number}"
             self.assertIn(f"]({href})", (ROOT / "repo" / page).read_text(encoding="utf-8"))
             self.assertIn(f"]({href})", repo_index)
-        self.assertEqual(len(set(numbers)), len(TOPICS.PAGES))
+        self.assertEqual(len(set(numbers)), len(TOPICS.ORIGINAL_PAGES))
         bad = deepcopy(self.data)
         bad["topics"]["CB"]["discussion"] = bad["topics"]["IB"]["discussion"]
         with self.assertRaisesRegex(ValueError, "distinct public discussion"):
             TOPICS.validate(bad)
+
+    def test_expandable_groups_preserve_numbering_and_cross_listing(self):
+        content = (ROOT / "repo" / TOPICS.MARKET_MAP).read_text(encoding="utf-8")
+        groups = re.findall(r"<details>\n<summary>(.*?)（(\d+)）</summary>\n(.*?)\n</details>", content, re.S)
+        self.assertEqual([label for label, _, _ in groups], list(TOPICS.GROUPS))
+        for label, count, body in groups:
+            tracks = TOPICS.GROUPS[label]
+            entries = re.findall(r"(?m)^(\d+)\. \[`([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+)`\]", body)
+            expected = {row["repo"] for row in self.rows.values() if set(tracks) & set(row["topics"])}
+            self.assertEqual(int(count), len(expected), label)
+            self.assertEqual(Counter(name for _, name in entries), Counter(expected), label)
+            self.assertEqual([int(n) for n, _ in entries], list(range(1, len(expected) + 1)))
+        for path in ("README.md", "repo/README.md", "AGENTS.md"):
+            self.assertIn(TOPICS.MARKET_MAP, (ROOT / path).read_text(encoding="utf-8"))
+
+    def test_new_readme_and_license_are_pinned_separately(self):
+        new = [row for row in self.rows.values() if "observed_at" in row]
+        self.assertGreaterEqual(len(new), 50)
+        for row in new:
+            self.assertRegex(row["readme_blob"], TOPICS.SHA)
+            if row["license_file"]:
+                self.assertRegex(row["license_blob"], TOPICS.SHA)
+            else:
+                self.assertTrue(TOPICS.read_only(row))
+        bad = deepcopy(self.data)
+        added = next(row for row in bad["repositories"] if "observed_at" in row)
+        added["readme_blob"] = "master"
+        with self.assertRaisesRegex(ValueError, "pinned readme_blob"):
+            TOPICS.validate(bad)
+
+    def test_provider_and_market_boundaries(self):
+        wrapper = self.rows["underloam/xbbg"]
+        self.assertEqual(wrapper["topics"]["DATA"]["lane"], "licensed")
+        self.assertTrue(TOPICS.read_only(wrapper))
+        self.assertEqual(self.rows["coinbase/coinbase-advanced-py"]["topics"]["EX"]["lane"], "digital")
+        self.assertEqual(self.rows["enewhuis/liquibook"]["topics"]["EX"]["lane"], "matching")
+        self.assertEqual(self.rows["oasislmf/oasispiwind"]["topics"]["INS"]["lane"], "cat")
+        for unverified in ("windquant/windpy", "qichacha/qcc-openapi"):
+            self.assertNotIn(unverified, self.rows)
 
     def test_academic_paper_uses_formal_source_and_distinguishes_a_proposed_reproduction(self):
         paper = (ROOT / "paper/README.md").read_text(encoding="utf-8")
