@@ -1,4 +1,8 @@
-# P-Finance
+# P-Finance: The Open Finance & Capital Markets Lab
+
+<p align="center">
+  <img src="assets/p-finance-research-desk.webp" alt="Xiao G and seven finance robots compare statements, contracts, and schematic market data at a shared research desk" width="100%">
+</p>
 
 A public finance research hub for capital markets, funding, banking, market structure, company and industry-chain research, and reproducible financial analysis. Deep Funding, the existing agent-to-agent funding-matchmaking sandbox, is the first project, not the boundary of the repository. New work is researched directly in public.
 
