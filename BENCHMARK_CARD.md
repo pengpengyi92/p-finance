@@ -1,5 +1,22 @@
 # Benchmark Card: Deep Funding
 
+## Finance industry repository directory - 2026-11-20
+
+**Baseline:** 137 unique public repositories and 184 placements across four routes;
+the earlier IB/PE/VC guide was a separate frozen catalog.
+
+**Change:** add 53 normalized pins and eight topic pages, cross-list 29 existing
+records with topic-specific notes, and generate eight expandable industry lists.
+
+**Measure → Result:** verify candidate identity, public status, exact commit and
+README/license objects; verify generated pages and cross-list parity offline.
+190 unique repositories, 302 placements and 70 cross-listed repositories.
+[Selection and test protocol](update/2026-11-20-finance-market-map.md).
+
+**Trade-off → Next Action:** researched selection, not a census. SDK code and data
+rights differ and no third-party code or models were run. Next, independently
+reproduce one fixed synthetic exercise per new application route.
+
 ## Four finance repository topics — 2026-11-18
 
 **Baseline → Change:** company-finance/FICC guides plus a combined bank/capital map;

@@ -1,5 +1,12 @@
 # TODO
 
+## P0 - Finance industry repository directory (2026-11-20)
+
+- [x] Add expandable bank, PE, VC, securities, exchange, fund, insurance and data lists; include wealth management under banking.
+- [x] Keep one canonical source record per repository and one use note per topic; keep original date pins and discussions.
+- [ ] P1: Audit a new batch of venue-owned market data, reinsurance and partner-capital operations repos; verify provider licensing independently.
+- [ ] P1: Reproduce the synthetic cap table, order book, fund return and loss-triangle examples before making any performance claims.
+
 ## P0 — Topic discussions and Academic Papers (2026-11-18)
 
 - [x] Check existing threads; link four topic discussions and keep the original general invitation.

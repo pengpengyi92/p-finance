@@ -2,9 +2,11 @@
 
 Open financial software and data tooling with license and provenance.
 
-**Latest catalog:** 2026-11-18 (Asia/Shanghai). 四个公开仓库专题按业务用途组织；下方早期报告和原始来源快照继续保留。
+**最新目录：2026-11-20（Asia/Shanghai）**。 [展开行业仓库清单](market-map.md)：银行、PE、VC、券商、交易所、基金、保险和金融数据。每组有编号列表，专题页附用途、提交固定链接和许可边界。
 
-## 四个独立专题
+[本轮收录范围与核对方式](../update/2026-11-20-finance-market-map.md)。原有来源快照继续保留。
+
+## 原有四个专题与讨论入口
 
 | 专题 | 收录范围 | 讨论帖 |
 | --- | --- | --- |

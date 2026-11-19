@@ -18,14 +18,18 @@ Include a title, timezone-aware timestamp, primary public source, provenance/lic
 
 ### Repository catalogs
 
-Use [Corporate Banking](repo/corporate-banking/README.md), [Investment Banking](repo/investment-banking/README.md),
+Start at the [expandable industry directory](repo/market-map.md): each group
+links to detailed routes and pinned sources. Preserve the separate original routes:
+[Corporate Banking](repo/corporate-banking/README.md), [Investment Banking](repo/investment-banking/README.md),
 [FICC](repo/ficc/catalog.md), or [Asset Custody](repo/asset-custody/README.md).
 Use the existing [CB #11](https://github.com/pengpengyi92/p-finance/discussions/11),
 [IB #12](https://github.com/pengpengyi92/p-finance/discussions/12), [FICC #13](https://github.com/pengpengyi92/p-finance/discussions/13),
 or [Asset Custody #14](https://github.com/pengpengyi92/p-finance/discussions/14) thread. Cross-link instead of reposting.
 For a PR, update the [canonical source ledger](repo/finance-topics.json)
 once, add a separate use note per applicable topic, and regenerate via
-`python scripts/render_finance_repository_topics.py`. Keep archived, ambiguous-license and digital-asset
+`python scripts/render_finance_repository_topics.py`. New pins need dated public metadata and
+verified README/license blobs where available. Use the shared Repo Discussions for
+new topics without a dedicated thread. Keep archived, ambiguous-license and digital-asset
 references distinct from reusable implementations and traditional securities custody.
 
 ## Public boundary
